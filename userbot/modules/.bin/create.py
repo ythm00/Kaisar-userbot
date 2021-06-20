@@ -1,12 +1,3 @@
-# Copyright (C) 2019 The Raphielscape Company LLC.
-#
-# Licensed under the Raphielscape Public License, Version 1.d (the "License");
-# you may not use this file except in compliance with the License.
-#
-# (c) Spechide - UniBorg
-# Port From UniBorg to UserBot by @afdulfauzan
-
-# LORD - USERBOT
 
 from telethon.tl import functions
 from userbot.events import register
@@ -50,6 +41,8 @@ async def telegraphs(grop):
                 await grop.edit("Lord, Grup/Channel {} Berhasil Dibuat. Tekan [{}]({}) Untuk Melihatnya".format(group_name, group_name, result.link))
             except Exception as e:  # pylint:disable=C0103,W0703
                 await grop.edit(str(e))
+
+__mod_name__ = "BUAT GROUP💌"
 
 CMD_HELP.update({
     "membuat": "\
