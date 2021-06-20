@@ -1,7 +1,3 @@
-# frm Ultroid
-# port by Koala @manusiarakitann
-# @musikkugroup
-# KEN KAN Ganteng
 
 from userbot.events import register
 from userbot import CMD_HELP, bot
@@ -12,10 +8,10 @@ from userbot import CMD_HELP, bot
 async def gcast(event):
     xx = event.pattern_match.group(1)
     if not xx:
-        return await event.edit("`Lord, Mohon Berikan Sebuah Pesan`")
+        return await event.edit("`Kaisar, Mohon Berikan Sebuah Pesan`")
     tt = event.text
     msg = tt[6:]
-    kk = await event.edit("`Sedang Mengirim Pesan Secara Global... 📢`")
+    kk = await event.edit("`Kaisar Sedang Mengirim Pesan Secara Global... 📢`")
     er = 0
     done = 0
     async for x in bot.iter_dialogs():
@@ -26,9 +22,8 @@ async def gcast(event):
                 await bot.send_message(chat, msg)
             except BaseException:
                 er += 1
-    await kk.edit(f"**Berhasil Mengirim Pesan Ke** `{done}` **Grup, Gagal Mengirim Pesan Ke** `{er}` **Grup**")
+    await kk.edit(f"**Kaisar Berhasil Mengirim Pesan Ke** `{done}` **Grup, Gagal Mengirim Pesan Ke** `{er}` **Grup**")
 
-# KEN KAN Ganteng
 CMD_HELP.update(
     {
         "gcast": "`.gcast <pesan>`\
