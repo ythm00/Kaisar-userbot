@@ -61,7 +61,7 @@ async def koc(e):
   
 
 CMD_HELP.update({
-    "🚯BANGSAT🚯":
+    "BANGSAT":
       "\n\nPenjelasan: ini berisi kata kata mutiara yang sangat dalam\
        n\n.tob\
        n\nPenjelasan: Perintah petuah."
