@@ -1,28 +1,29 @@
 
 
+
 <p align="center">
-  <a href="https://github.com/kenkannih/kaisar-userbot/fork">
-    <img src="https://img.shields.io/github/forks/kenkannih/kaisar-userbot?label=Fork&style=social">
+  <a href="https://github.com/kenkannih/Kaisar-userbot/fork">
+    <img src="https://img.shields.io/github/forks/kenkannih/Kaisar-userbot?label=Fork&style=social">
     
   </a>
-  <a href="https://github.com/kenkannih/kaisar-userbot">
-    <img src="https://img.shields.io/github/stars/kenkannih/kaisar-userbot?style=social">
+  <a href="https://github.com/kenkannih/Kaisar-userbot">
+    <img src="https://img.shields.io/github/stars/kenkannih/Kaisar-userbot?style=social">
   </a>
 </p>  
 
-# kaisar userbot
-<a href="https://github.com/kenkannih/kaisar-userbot"><img src="https://telegra.ph/file/609c527f4408a5b755a56.jpg"/>
+# Kaisar Userbot
+![Kaisar Userbot Logo](https://telegra.ph/file/609c527f4408a5b755a56.jpg)
 
 <h3 align="center">Userbot Yang Digunakan Untuk Bersenang-Senang Di Telegram</h3>
 <p align="center">&nbsp;</p>
 
-### Repo kaisar userbot
+### Repo Kaisar Userbot
 Repo Yang Dibuat [KEN KAN](https://t.me/kenkanasw) Dari Berbagai Repo Userbot Github 
 
 
 ### CARA MENDAPATKAN STRING SESSON
 
-Caranya Pergi Ke Grup Support kaisar-userbot Lalu Ketik #String [TEKAN DISINI](https://t.me/musikkugroup) Untuk Masuk Ke Grup Support
+Caranya Pergi Ke Grup Support Kaisar-userbot Lalu Ketik #String [TEKAN DISINI](https://t.me/musikkugroup) Untuk Masuk Ke Grup Support
 
 ## Bagaimana Cara Deploy?
 
@@ -39,19 +40,18 @@ Caranya Pergi Ke Grup Support kaisar-userbot Lalu Ketik #String [TEKAN DISINI](h
 
   > Terakhir Hidupkan Dyno Lalu Check Logs (settings -> view logs) Jika Berhasil Enjoy :)
 ```
-Atau Bisa Gabung Ke Grup kaisar userbot -> [TEKAN DISINI](https://t.me/musikkugroup)
-## <p align="center">DEPLOY kaisar-userbot</p>
+Atau Bisa Gabung Ke Grup Kaisar Userbot -> [TEKAN DISINI](https://t.me/musikkugroup)
+## <p align="center">DEPLOY Kaisar-userbot</p>
 
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/kenkannih/kaisar-userbot/kaisar-userbot"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-blue?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/kenkannih/Kaisar-userbot"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 <br>
 </p>
 
 ## Credit
 TERIMAKASIH UNTUK
-
-* [Zora24](https://github.com/Zora24/kaisar-userbot) - kaisar-userbot
+* [Alvin](https://github.com/Zora24/Kaisar-userbot) - Kaisar-Userbot
 *   [RaphielGang](https://github.com/RaphielGang) - Telegram-Paperplane
 *   [AvinashReddy3108](https://github.com/AvinashReddy3108) - PaperplaneExtended
 *   [Mkaraniya](https://github.com/mkaraniya) & [Dev73](https://github.com/Devp73) - OpenUserBot
