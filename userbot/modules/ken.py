@@ -8,7 +8,7 @@ import asyncio
 @register(outgoing=True, pattern="^.bang$")
 async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("DASA KAU")
+        await e.edit("DASAR KAU")
         sleep(2)
         await e.edit("BANGSAT")
         sleep(2)
