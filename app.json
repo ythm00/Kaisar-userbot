@@ -47,14 +47,16 @@
     },
     "CONSOLE_LOGGER_VERBOSE": {
       "description": "If you need verbosity on the console logging",
-      "value": "False"
+      "value": "false"
     },
     "QUOTES_API_TOKEN": {
       "description": "Dapatkan Token Dari http://antiddos.systems",
+      "value": "33273f18-4a0d-4a76-8d78-a16faa002375",
       "required": false
     },
     "GENIUS_ACCESS_TOKEN": {
       "description": "Client Access Token from https://genius.com/api-clients.",
+      "value": "g1mOf-NPy8HCXm5-1qunVKztuxc4RKMHOKzVrBgaujc8ZKvMp3_6wfO4SIHXd8nO",
       "required": false
     },
     "MONGO_URI": {
@@ -63,6 +65,7 @@
     },
     "GENIUS": {
       "description": "Get this value from https://genius.com/developers., basically same as GENIUS_API_TOKEN.",
+      "value": "SQpQ35PEn8Een-ypG5pAl5pTbP0O1TB5QTsjRX039NmgsGjp3LGj_IFYzdlfXwSf",
       "required": false
     },
     "GITHUB_ACCESS_TOKEN": {
@@ -94,14 +97,17 @@
     },
     "YOUTUBE_API_KEY": {
       "description": "YouTube Data API Key for .yt command. Get from https://console.cloud.google.com",
+      "value": "AIzaSyACwFrVv-mlhICIOCvDQgaabo6RIoaK8Dg",
       "required": false
     },
     "OCR_SPACE_API_KEY": {
       "description": "OCR API Key for .ocr command. Get from https://ocr.space/ocrapi",
+      "value": "0c2078b99188957",
       "required": false
     },
     "REM_BG_API_KEY": {
       "description": "API Key for .rbg command. Get from https://www.remove.bg/api",
+      "value": "GPLyodhzj3uY2fnJbSsnKek8",
       "required": false
     },
     "ANTI_SPAMBOT": {
@@ -185,7 +191,7 @@
     },
     "BITLY_TOKEN": {
       "description": "Your Bit.ly API key, get it from 'https://bitly.com/a/sign_up'",
-      "value": "",
+      "value": "o_1fpd9299vp",
       "required": false
     },
     "UB_BLACK_LIST_CHAT": {
