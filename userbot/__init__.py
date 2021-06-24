@@ -3,7 +3,7 @@
 # Licensed under the Raphielscape Public License, Version 1.d (the "License");
 # you may not use this file except in compliance with the License.
 # inline credit @keselekpermen69
-# Pengguna kaisar-userbot
+# Pengguna Kaisar-userbot
 """ Userbot initialization. """
 
 import os
@@ -101,9 +101,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/kenkannih/kaisar-userbot.git")
+    "https://github.com/kenkannih/Kaisar-userbot.git")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "kaisar-userbot")
+    "UPSTREAM_REPO_BRANCH", "Kaisar-userbot")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -147,8 +147,8 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 # Youtube API key
 YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 
-# untuk perintah .lord
-LORD_TEKS_KUSTOM = os.environ.get("LORD_TEKS_KUSTOM", None)
+# untuk perintah .Kaisar
+Kaisar_TEKS_KUSTOM = os.environ.get("Kaisar_TEKS_KUSTOM", None)
 
 # Default .alive name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
@@ -167,7 +167,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "kaisar-userbot")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "Kaisar-userbot")
 
 # Bot version
 BOT_VER = os.environ.get("BOT_VER", "4.0")
@@ -319,7 +319,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```『kaisar-userbot Telah Aktif』```")
+    await bot.send_message(BOTLOG_CHATID, "```『Kaisar-Userbot Telah Aktif』```")
     return
 
 with bot:
@@ -349,7 +349,7 @@ def paginate_help(page_number, loaded_modules, prefix):
     helpable_modules = [p for p in loaded_modules if not p.startswith("_")]
     helpable_modules = sorted(helpable_modules)
     modules = [
-        custom.Button.inline("{} {} 🔆".format("🔆", x), data="ub_modul_{}".format(x))
+        custom.Button.inline("{} {} 🏆".format("🏆", x), data="ub_modul_{}".format(x))
         for x in helpable_modules
     ]
     pairs = list(zip(modules[::number_of_cols],
@@ -365,10 +365,10 @@ def paginate_help(page_number, loaded_modules, prefix):
         ] + [
             (
                 custom.Button.inline(
-                    "↩️", data="{}_prev({})".format(prefix, modulo_page)
+                    "◀️", data="{}_prev({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
-                    "↪️", data="{}_next({})".format(prefix, modulo_page)
+                    "▶️", data="{}_next({})".format(prefix, modulo_page)
                 )
             )
         ]
@@ -390,9 +390,9 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("kaisar-userbot, Buat Userbot Mu Sendiri [Tekan Disini](https://github.com/kenkannih/kaisar-userbot.git)")
+                await event.reply("Kaisar-userbot, Buat Userbot Mu Sendiri [Tekan Disini](https://github.com/kenkannih/Kaisar-userbot)")
             else:
-                await event.reply(f"`Hai Lord {ALIVE_NAME}\n\nApa Kabarmu?`")
+                await event.reply(f"`Hai Kaisar {ALIVE_NAME}\n\nApa Kabarmu?`")
 
         @tgbot.on(events.InlineQuery)  # pylint:disable=E0602
         async def inline_handler(event):
@@ -403,8 +403,8 @@ with bot:
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.article(
                     "Harap Gunakan .help Untuk Perintah",
-                    text="{}\n\n**❃ Jumlah Modul Yang Tersedia:** `{}`\n               \n**❃ Daftar Modul kaisar userbot:** \n".format(
-                        "**🔆 kaisar-userbot**",
+                    text="{}\n\n**❃ Jumlah Modul Yang Tersedia:** `{}`\n               \n**❃ Daftar Modul Kaisar Userbot:** \n".format(
+                        "**🏆 Kaisar-userbot**",
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -419,12 +419,12 @@ with bot:
             else:
                 result = builder.article(
                     "**Kaisar✗Userbot**",
-                    text="""**Anda Bisa Membuat kaisar userbot Anda Sendiri Dengan Cara:** [Tekan Disini](t.me/musikkugroup)""",
+                    text="""**Anda Bisa Membuat Kaisar Userbot Anda Sendiri Dengan Cara:** [Tekan Disini](t.me/musikkugroup)""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "Repo kaisar-userbot",
-                                "https://github.com/kenkannih/kaisar-userbot"),
+                                "Repo Kaisar-userbot",
+                                "https://github.com/kenkannih/Kaisar-userbot"),
                             custom.Button.url(
                                 "Pemilik Repo",
                                 "t.me/kenkanasw")],
@@ -447,7 +447,7 @@ with bot:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"Harap Deploy kaisar userbot Anda Sendiri, Jangan Menggunakan Milik Lord {ALIVE_NAME} ツ"
+                reply_pop_up_alert = f"Harap Deploy Kaisar Userbot Anda Sendiri, Jangan Menggunakan Milik Kaisar {ALIVE_NAME} ツ"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -465,7 +465,7 @@ with bot:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"Harap Deploy kaisar userbot Anda Sendiri, Jangan Menggunakan Milik Lord {ALIVE_NAME} ツ"
+                reply_pop_up_alert = f"Harap Deploy Kaisar Userbot Anda Sendiri, Jangan Menggunakan Milik Kaisar {ALIVE_NAME} ツ"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -496,7 +496,7 @@ with bot:
                     )
                 )
             else:
-                reply_pop_up_alert = f"Harap Deploy kaisar userbot Anda Sendiri, Jangan Menggunakan Milik Lord {ALIVE_NAME} ツ"
+                reply_pop_up_alert = f"Harap Deploy Kaisar Userbot Anda Sendiri, Jangan Menggunakan Milik Kaisar {ALIVE_NAME} ツ"
 
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
