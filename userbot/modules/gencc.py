@@ -8,22 +8,22 @@ from userbot.events import register
 
 
 @register(outgoing=True, pattern=r"^\.gencc(?: |$)(.*)")
-async def gencc(Kaisarevent):
-    if Kaisarevent.fwd_from:
+async def gencc(kenkanaswevent):
+    if kenkanaswevent.fwd_from:
         return
-    Kaisarcc = Faker()
-    Kaisarname = Kaisarcc.name()
-    Kaisaradre = Kaisarcc.address()
-    Kaisarcard = Kaisarcc.credit_card_full()
+    kenkanaswcc = Faker()
+    kenkanaswname = kenkanaswcc.name()
+    kenkanaswadre = kenkanaswcc.address()
+    kenkanaswcard = kenkanaswcc.credit_card_full()
 
-    await edit_or_reply(Kaisarevent, f"__**👤 NAMA :- **__\n`{Kaisarname}`\n\n__**🏡 ALAMAT :- **__\n`{Kaisaradre}`\n\n__**💸 KARTU :- **__\n`{Kaisarcard}`")
+    await edit_or_reply(kenkanaswevent, f"__**👤 NAMA :- **__\n`{kenkanaswname}`\n\n__**🏡 ALAMAT :- **__\n`{kenkanaswadre}`\n\n__**💸 KARTU :- **__\n`{kenkanaswcard}`")
 
 
 @register(outgoing=True, pattern=r"^\.bin(?: |$)(.*)")
 async def bin(event):
     if event.fwd_from:
         return
-    Kaisar_input = event.pattern_match.group(1)
+    kenkanasw_input = event.pattern_match.group(1)
     chat = "@carol5_bot"
     await event.edit("Pengecekan...")
     async with event.client.conversation(chat) as conv:
@@ -31,8 +31,8 @@ async def bin(event):
             response = conv.wait_event(
                 events.NewMessage(
                     incoming=True,
-                    from_users=1282429349))
-            await event.client.send_message(chat, f"/bin {Kaisar_input}")
+                    from_users=1641726479))
+            await event.client.send_message(chat, f"/bin {kenkanasw_input}")
             response = await response
         except YouBlockedUserError:
             await event.reply("Tolong Unblock @carol5_bot")
@@ -46,7 +46,7 @@ async def bin(event):
 async def vbv(event):
     if event.fwd_from:
         return
-    Kaisar_input = event.pattern_match.group(1)
+    kenkanasw_input = event.pattern_match.group(1)
     chat = "@carol5_bot"
     await event.edit("Pengecekan...")
     async with event.client.conversation(chat) as conv:
@@ -54,8 +54,8 @@ async def vbv(event):
             response = conv.wait_event(
                 events.NewMessage(
                     incoming=True,
-                    from_users=1282429349))
-            await event.client.send_message(chat, f"/vbv {Kaisar_input}")
+                    from_users=1641726479))
+            await event.client.send_message(chat, f"/vbv {kenkanasw_input}")
             response = await response
         except YouBlockedUserError:
             await event.reply("Tolong Unblock @carol5_bot")
@@ -69,7 +69,7 @@ async def vbv(event):
 async def key(event):
     if event.fwd_from:
         return
-    Kaisar_input = event.pattern_match.group(1)
+    kenkanasw_input = event.pattern_match.group(1)
     chat = "@carol5_bot"
     await event.edit("Pengecekan...")
     async with event.client.conversation(chat) as conv:
@@ -77,8 +77,8 @@ async def key(event):
             response = conv.wait_event(
                 events.NewMessage(
                     incoming=True,
-                    from_users=1282429349))
-            await event.client.send_message(chat, f"/key {Kaisar_input}")
+                    from_users=1641726479))
+            await event.client.send_message(chat, f"/key {kenkanasw_input}")
             response = await response
         except YouBlockedUserError:
             await event.reply("Tolong Unblock @carol5_bot")
@@ -92,7 +92,7 @@ async def key(event):
 async def iban(event):
     if event.fwd_from:
         return
-    Kaisar_input = event.pattern_match.group(1)
+    kenkanasw_input = event.pattern_match.group(1)
     chat = "@carol5_bot"
     await event.edit("Pengecekan...")
     async with event.client.conversation(chat) as conv:
@@ -100,8 +100,8 @@ async def iban(event):
             response = conv.wait_event(
                 events.NewMessage(
                     incoming=True,
-                    from_users=1282429349))
-            await event.client.send_message(chat, f"/iban {Kaisar_input}")
+                    from_users=1641726479))
+            await event.client.send_message(chat, f"/iban {kenkanasw_input}")
             response = await response
         except YouBlockedUserError:
             await event.reply("Tolong Unblock @carol5_bot")
@@ -115,7 +115,7 @@ async def iban(event):
 async def ccheck(event):
     if event.fwd_from:
         return
-    Kaisar_input = event.pattern_match.group(1)
+    kenkanasw_input = event.pattern_match.group(1)
     chat = "@carol5_bot"
     await event.edit("Pengecekan...")
     async with event.client.conversation(chat) as conv:
@@ -123,8 +123,8 @@ async def ccheck(event):
             response = conv.wait_event(
                 events.NewMessage(
                     incoming=True,
-                    from_users=1282429349))
-            await event.client.send_message(chat, f"/ss {Kaisar_input}")
+                    from_users=1641726479))
+            await event.client.send_message(chat, f"/ss {kenkanasw_input}")
             response = await response
         except YouBlockedUserError:
             await event.reply("Tolong Unblock @carol5_bot")
@@ -138,16 +138,16 @@ async def ccheck(event):
 async def ccbin(event):
     if event.fwd_from:
         return
-    Kaisar_input = event.pattern_match.group(1)
+    kenkanasw_input = event.pattern_match.group(1)
     chat = "@carol5_bot"
-    await event.edit(f" Mencoba menghasilkan CC dari bin yang diberikan `{Kaisar_input}`")
+    await event.edit(f" Mencoba menghasilkan CC dari bin yang diberikan `{kenkanasw_input}`")
     async with event.client.conversation(chat) as conv:
         try:
             response = conv.wait_event(
                 events.NewMessage(
                     incoming=True,
-                    from_users=1282429349))
-            await event.client.send_message(chat, f"/gen {Kaisar_input}")
+                    from_users=1641726479))
+            await event.client.send_message(chat, f"/gen {kenkanasw_input}")
             response = await response
         except YouBlockedUserError:
             await event.reply("Tolong Unblock @carol5_bot")
