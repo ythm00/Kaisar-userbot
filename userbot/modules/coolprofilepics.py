@@ -1,4 +1,5 @@
-
+# credits to the respective owner xD
+# imported by @heyworld
 import requests
 import re
 import random

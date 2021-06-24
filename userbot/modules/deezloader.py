@@ -18,7 +18,7 @@ from telethon.tl.types import DocumentAttributeAudio
 from userbot import CMD_HELP, DEEZER_ARL_TOKEN, TEMP_DOWNLOAD_DIRECTORY
 from userbot.events import register
 
-# kaisar userbot
+# Kaisar USERBOT
 @register(outgoing=True, pattern=r"^\.deez (.+?|) (FLAC|MP3\_320|MP3\_256|MP3\_128)")
 async def _(event):
     """DeezLoader by @An0nimia
@@ -122,7 +122,7 @@ async def _(event):
     else:
         await event.edit(strings["wrong_cmd_syntax"])
 
-# LORD - USERBOT
+# Kaisar - USERBOT
 async def upload_track(track_location, message):
     metadata = extractMetadata(createParser(track_location))
     duration = 0
@@ -157,7 +157,7 @@ async def upload_track(track_location, message):
     )
     os.remove(track_location)
 
-# kaisar userbot
+# Kaisar USERBOT
 # @musikkugroup
 CMD_HELP.update(
     {

@@ -1,3 +1,8 @@
+# Copyright (C) 2019 The Raphielscape Company LLC.
+#
+# Licensed under the Raphielscape Public License, Version 1.d (the "License");
+# you may not use this file except in compliance with the License.
+""" Userbot module containing userid, chatid and log commands"""
 
 from asyncio import sleep
 from userbot import BOTLOG, BOTLOG_CHATID, CMD_HELP, bot
@@ -103,7 +108,7 @@ async def log(log_text):
 @register(outgoing=True, pattern="^.kickme$")
 async def kickme(leave):
     """ Basically it's .kickme command """
-    await leave.edit("`Lord Telah Meninggalkan Grup ツ`")
+    await leave.edit("`Kaisar Telah Meninggalkan Grup ツ`")
     await leave.client.kick_participant(leave.chat_id, 'me')
 
 
@@ -131,7 +136,7 @@ async def mute_chat(mute_e):
         return
     await mute_e.edit(str(mute_e.chat_id))
     kread(str(mute_e.chat_id))
-    await mute_e.edit("`Ssshssh Lord Telah Membisukan Obrolan!`")
+    await mute_e.edit("`Ssshssh Kaisar Telah Membisukan Obrolan!`")
     await sleep(2)
     await mute_e.delete()
     if BOTLOG:
@@ -219,7 +224,7 @@ async def get_chatinfo(event):
             await event.edit("`Grup/Channel Tidak Valid`")
             return None
         except ChannelPrivateError:
-            await event.edit("`Ini Adalah Grup/Channel Privasi Atau Lord Dibanned Dari Sana`")
+            await event.edit("`Ini Adalah Grup/Channel Privasi Atau Kaisar Dibanned Dari Sana`")
             return None
         except ChannelPublicGroupNaError:
             await event.edit("`Channel Atau Supergrup Tidak Ditemukan`")
@@ -440,7 +445,7 @@ CMD_HELP.update({
 \nPenjelasan: Menambahkan pengguna ke obrolan, bukan ke pesan pribadi. "
 })
 
-# kaisar userbot
+# Kaisar Userbot
 CMD_HELP.update({"mutechat": "**Modules:** __Mute Chat__\
 \n\n**Perintah:** `.mutechat`\
 \n**Penjelasan:** Memungkinkan Anda Membisukan Obrolan Apapun.\

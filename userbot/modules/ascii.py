@@ -1,3 +1,5 @@
+# based on https://gist.github.com/wshanshan/c825efca4501a491447056849dd207d6
+# Ported for ProjectAlf by Alfiananda P.A
 
 import os
 import random
@@ -126,7 +128,7 @@ async def random_color():
 async def _(event):
     BG = event.pattern_match.group(1)
     if BG.isnumeric():
-        return await event.edit("`Mohon Masukkan Warna Bukan Angka Lord`")
+        return await event.edit("`Mohon Masukkan Warna Bukan Angka Kaisar`")
     elif BG:
         global bground
         bground = BG

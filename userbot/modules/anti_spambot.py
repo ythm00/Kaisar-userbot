@@ -1,5 +1,10 @@
+# Copyright (C) 2019 The Raphielscape Company LLC.
+#
+# Licensed under the Raphielscape Public License, Version 1.c (the "License");
+# you may not use this file except in compliance with the License.
+#
 
-# kaisar userbot
+# Kaisar USERBOT
 from asyncio import sleep
 
 from requests import get
@@ -15,7 +20,7 @@ from userbot import (
     bot,
 )
 
-# kaisar userbot
+# Kaisar USERBOT
 
 @bot.on(ChatAction)
 async def ANTI_SPAMBOTS(welcm):
@@ -187,7 +192,7 @@ async def ANTI_SPAMBOTS(welcm):
     except ValueError:
         pass
 
-# kaisar userbot
+# Kaisar USERBOT
 # KEN KAN GANTENG
 
 CMD_HELP.update(

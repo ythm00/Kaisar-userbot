@@ -1,3 +1,11 @@
+# Copyright (C) 2019 The Raphielscape Company LLC.
+#
+# Licensed under the Raphielscape Public License, Version 1.d (the "License");
+# you may not use this file except in compliance with the License.
+
+# port to userbot from uniborg by @keselekpermen69
+
+
 import io
 import re
 
@@ -17,7 +25,7 @@ async def on_new_message(event):
             try:
                 await event.delete()
             except Exception:
-                await event.reply("`Lord, Anda Tidak Punya Izin Untuk Menghapus Pesan Disini`")
+                await event.reply("`Kaisar, Anda Tidak Punya Izin Untuk Menghapus Pesan Disini`")
                 await sleep(1)
                 await reply.delete()
                 sql.rm_from_blacklist(event.chat_id, snip.lower())
@@ -75,7 +83,7 @@ async def on_delete_blacklist(rmbl):
         if sql.rm_from_blacklist(rmbl.chat_id, trigger.lower()):
             successful += 1
     if not successful:
-        await rmbl.edit("`Lord,` **{}** `Tidak Ada Di Blacklist`".format(text))
+        await rmbl.edit("`Kaisar,` **{}** `Tidak Ada Di Blacklist`".format(text))
     else:
         await rmbl.edit("`Berhasil Menghapus` **{}** `Di Blacklist`".format(text))
 
@@ -84,6 +92,6 @@ CMD_HELP.update({"blacklist": ">`.listbl`"
                  "\nUsage: Melihat daftar blacklist yang aktif di obrolan."
                  "\n\n>`.addbl <kata>`"
                  "\nUsage: Memasukan pesan ke blacklist 'kata blacklist'."
-                 "\nlord bot akan otomatis menghapus 'kata blacklist'."
+                 "\nKaisar bot akan otomatis menghapus 'kata blacklist'."
                  "\n\n>`.rmbl <kata>`"
                  "\nUsage: Menghapus kata blacklist."})
