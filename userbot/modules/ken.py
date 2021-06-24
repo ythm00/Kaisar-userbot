@@ -65,7 +65,7 @@ __mod_name__ = "Anime 🧢"
 
 CMD_HELP.update({
     ".bang":
-      "\n\nPenjelasan":"ini berisi kata kata mutiara yang sangat dalam"
-    ".tob":
-      "\n\nPenjelasan": "Perintah petuah."
+      "\n\nPenjelasan: ini berisi kata kata mutiara yang sangat dalam\
+       n\n.tob\
+       n\nPenjelasan: Perintah petuah."
 })
