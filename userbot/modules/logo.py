@@ -8,7 +8,6 @@ from userbot.modules.admin import get_user_from_event
 from PIL import Image, ImageDraw, ImageFont
 from telethon.tl.types import InputMessagesFilterPhotos
 
-from . import *
 
 @register(outgoing=True, pattern="logo ?(.*)")
 async def logo_gen(event):
