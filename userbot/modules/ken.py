@@ -59,12 +59,9 @@ async def koc(e):
       sleep(1)
       await e.edit("BEBAN KELUARGA")
   
-__mod_name__ = "Anime 🧢"
-
-# Create by myself @localheart
 
 CMD_HELP.update({
-    ".bang":
+    "🚯BANGSAT🚯":
       "\n\nPenjelasan: ini berisi kata kata mutiara yang sangat dalam\
        n\n.tob\
        n\nPenjelasan: Perintah petuah."
