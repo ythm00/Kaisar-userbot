@@ -1,6 +1,6 @@
 {
-  "name": "kaisar-userbot",
-  "description": "[kaisar-userbot] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
+  "name": "Kaisar-userbot",
+  "description": "[Kaisar-userbot] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
   "logo": "https://telegra.ph/file/609c527f4408a5b755a56.jpg",
   "keywords": [
     "telegram",
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/kenkannih/kaisar-userbot",
+  "repository": "https://github.com/kenkannih/Kaisar-userbot",
   "telegram": "https://t.me/kenkanasw",
   "success_url": "https://t.me/kenkanasw",
   "stack": "container",
@@ -32,7 +32,7 @@
     },
     "HEROKU_API_KEY": {
       "description": "Heroku API KEY mu, dapatkan dari web 'https://dashboard.heroku.com/account'",
-      "value": "Check Di Heroku Dashboard Mu",
+      "value": "",
       "required": true
     },
     "BOTLOG": {
@@ -42,7 +42,7 @@
     },
     "BOTLOG_CHATID": {
       "description": "Buatlah sebuah grup private/public masukan bot rose lalu ketik /id.",
-      "value": "Isi id grup mu",
+      "value": "",
       "required": true
     },
     "CONSOLE_LOGGER_VERBOSE": {
@@ -151,15 +151,15 @@
     },
     "DEFAULT_BIO": {
       "description": "Default Bio Mu.",
-      "value": "kaisar-userbot",
+      "value": "KAISAR-USERBOT",
       "required": false
     },
     "ALIVE_NAME": {
       "description": "Nama untuk menunjukan pesan .alive",
       "required": false
     },
-    "LORD_TEKS_KUSTOM": {
-      "description": "Kustom Pesan Alive Mu Untuk Perintah .lord (Isi Terserah)",
+    "Kaisar_TEKS_KUSTOM": {
+      "description": "Kustom Pesan Alive Mu Untuk Perintah .Kaisar (Isi Terserah)",
       "required": false
     },
     "S_PACK_NAME": {
@@ -168,7 +168,7 @@
     },
     "G_BAN_LOGGER_GROUP": {
       "description": "Buatlah Sebuah Grup Private/Public Lalu Masukkan Bot Rose Lalu Ketik /id.",
-      "value": "Isi id grup mu",
+      "value": "",
       "required": false
     },
     "G_DRIVE_DATA": {
