@@ -353,5 +353,5 @@ async def carbon_api(e):
 CMD_HELP.update({
     "carbon":
     "`.carbon`nilai <nilai=1,2,3,4>\
-        \nUsage:reply atau ketik nilai .carbon1 atau 2,3,4 dan percantik
+        \nUsage:reply atau ketik nilai .carbon1 atau 2,3,4 dan percantik."
 })
