@@ -62,7 +62,7 @@ async def help(Kaisar):
                         "**🔵 MODULES 15:**\n"
                         "`webupload`  `welcome`  `whois`  `ping`  `sinyal`  `xiaomi`  `zipfile`")
         await Kaisar.reply("\n**CARA MENGGUNAKAN,** **CONTOH:**\n**KETIK** `.help afk` **UNTUK INFORMASI MODULES**\n**GROUP SUPPORT:** [TEKAN](t.me/musikkugroup)"
-        disable_web_page_preview=True
+        disable_web_page_preview=True,
         )
         await asyncio.sleep(1000)
         await Kaisar.delete()
