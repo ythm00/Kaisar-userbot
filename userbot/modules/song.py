@@ -1,9 +1,3 @@
-# Ported By Vicky / @Vckyouuu From Ultroid
-# Jangan Dihapuss!!!
-# Thanks Ultroid
-# Full Love From Vicky For All Kaisar
-# @musikkugroup
-
 
 import json
 import os
@@ -125,9 +119,6 @@ Artis - {}
     )
     os.remove(f"{rip_data['id']}.mp3")
 
-# For Kaisar - Userbot
-# Piki Ganteng
-# Tapi Gantengan KEN KAN
 
 CMD_HELP.update({"song": "**Modules:** __Song__\n\n**Perintah:** `.song <judul>`"
                  "\n**Penjelasan:** Mendownload Lagu"})
