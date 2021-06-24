@@ -21,9 +21,9 @@
 Repo Yang Dibuat [KEN KAN](https://t.me/kenkanasw) Dari Berbagai Repo Userbot Github 
 
 
-### CARA MENDAPATKAN STRING SESSON
+### STRING SESSON
 
-Caranya Pergi Ke Grup Support Kaisar-userbot Lalu Ketik #String [TEKAN DISINI](https://t.me/musikkugroup) Untuk Masuk Ke Grup Support
+<a href="https://replit.com/@kenkannih/strings-session#main.py"><img src="https://img.shields.io/badge/STRINGS-SESSION-blue?badge&logo-style=replit"/>
 
 ## Bagaimana Cara Deploy?
 
