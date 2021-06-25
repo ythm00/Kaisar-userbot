@@ -77,6 +77,6 @@ async def get_users(event):
 
 CMD_HELP.update({
     "invite":
-        "`.inviteall groups username`\
-          \n📌 :Menambahkan pengguna dari obrolan ke grup Anda."
+      "\n\nPenggunaan: .iviteall link group lain\
+       \n\nPenjelasan: Fungsinya menambahkan member dari group lain ke group anda."
 })
