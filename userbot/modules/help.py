@@ -1,12 +1,4 @@
-# Copyright (C) 2019 The Raphielscape Company LLC.
-#
-# Licensed under the Raphielscape Public License, Version 1.d (the "License");
-# you may not use this file except in compliance with the License.
-#
 """ Kaisar Userbot help command """
-
-# Kaisar USERBOT
-# @musikkugroup
 
 import asyncio
 from userbot import CMD_HELP
@@ -14,9 +6,6 @@ from userbot.events import register
 
 modules = CMD_HELP
 
-# EDIT BY KEN KAN / @kenkanasw FOR Kaisar USERBOT
-# CREDIT EDIT FROM Kaisar
-# JANGAN HAPUS!!!
 
 @register(outgoing=True, pattern="^.help(?: |$)(.*)")
 async def help(Kaisar):
@@ -60,9 +49,12 @@ async def help(Kaisar):
                         "**🔵 MODULES 14:**\n"
                         "`transform`  `update`  `download`  `getid`  `waifu`  `wallpaper`  `weather`\n\n"
                         "**🔵 MODULES 15:**\n"
-                        "`webupload`  `welcome`  `whois`  `ping`  `sinyal`  `xiaomi`  `zipfile`")
-        await Kaisar.reply("\n**CARA MENGGUNAKAN,** **CONTOH:**\n**KETIK** `.help afk` **UNTUK INFORMASI MODULES**\n**GROUP SUPPORT:** [TEKAN](t.me/musikkugroup)")
-        await asyncio.sleep(1000)
+                        "`webupload`  `welcome`  `whois`  `ping`  `sinyal`  `xiaomi`  `zipfile`\n\n"
+                        "**🔵 MODULES 16:**\n"
+                        "`inviteall` `gencc`")
+        await Kaisar.reply(
+          text = "\n**CARA MENGGUNAKAN,** **CONTOH:**\n**KETIK** `.help afk` **UNTUK INFORMASI MODULES**\n**GROUP SUPPORT:** [TEKAN](t.me/musikkugroup)"
+          disable_web_preview = True,
+          )
+        await asyncio.sleep(100)
         await Kaisar.delete()
-
-# KEN KAN GANTENG
