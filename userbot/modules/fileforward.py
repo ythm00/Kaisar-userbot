@@ -121,13 +121,13 @@ async def ccheck(event):
 CMD_HELP.update({
   "fileforward":
     "`.butn`\
-\n\Penjelasan: untuk menambahkan button pada file.\
-      `.rbutn`\
-\n\Penjelasan: untuk menghapus button dari file.\
-      `.capt`\
-\n\Penjelasan: untuk menambahkan caption pada file.\
-      `.rcapt`\ 
-\n\Penjelan: untuk menghapus caption pada file.\
-      `.dcwb`\ 
-\n\Penjelasan: untuk menghapus penampil web."
+    \nPenjelasan: untuk menambahkan button pada file.\
+     `.rbutn`\
+     \nPenjelasan : untuk menghapus button dari file.\
+    `.capt`\
+    \nPenjelasan : untuk menambahkan caption pada file.\
+    `.rcapt`\
+    \nPenjelasan : untuk menghapus caption pada file.\
+    `.dcwb`\
+    \nPenjelasan : untuk menghapus penampil web."
 })
