@@ -52,7 +52,8 @@ async def help(Kaisar):
                         "`webupload`  `welcome`  `whois`  `ping`  `sinyal`  `xiaomi`  `zipfile`\n\n"
                         "**🔵 MODULES 16:**\n"
                         "`inviteall` `gencc`")
-        await Kaisar.reply(f"\n**CARA MENGGUNAKAN,** **CONTOH:**\n**KETIK** `.help afk` **UNTUK INFORMASI MODULES**\n**GROUP SUPPORT:** [TEKAN](t.me/musikkugroup)"
+        await Kaisar.reply_text(
+          f"\n**CARA MENGGUNAKAN,** **CONTOH:**\n**KETIK** `.help afk` **UNTUK INFORMASI MODULES**\n**GROUP SUPPORT:** [TEKAN](t.me/musikkugroup)"
           disable_web_page_preview=True
           )
         await asyncio.sleep(100)
