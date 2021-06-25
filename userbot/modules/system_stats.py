@@ -230,10 +230,10 @@ async def amireallyalive(alive):
     await alive.edit("`I'M ALIVE!`")
     await alive.edit("⚡")
     output = (
-        f" **┗┓Kaisar USERBOT┏┛** \n"
+        f" **┗┓KAISAR USERBOT┏┛** \n"
         f"\n__**{Kaisar_TEKS_KUSTOM}**__\n"
         f"**━━━━━━━━━━━━━━━━━━━━**\n"
-        f"**🏆 ʟᴏʀᴅ** \n"
+        f"**🏆 ᴋᴀɪꜱᴀʀ** \n"
         f" ➥ `{DEFAULTUSER}` \n"
         f"**🏆 ᴜsᴇʀɴᴀᴍᴇ** \n"
         f" ➥ `@{user.username}` \n"
@@ -269,7 +269,7 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**▬▬▬▬▬▬❙۩🏆۩❙▬▬▬▬▬▬**\n"
-        f"     **♕ Kaisar USERBOT ♕** \n\n"
+        f"     **♕ KAISAR USERBOT ♕** \n\n"
         f"❃ **Kaisar**     \n   ➥ `{DEFAULTUSER}` \n"
         f"❃ **Username** \n   ➥ `@{user.username}` \n"
         f"❃ **Telethon** \n   ➥ `Versi {version.__version__}` \n"
@@ -305,7 +305,7 @@ async def amireallyalive(alive):
     await alive.edit("`I'M ALIVE!`")
     await alive.edit("⚡")
     output = (
-        f"**♕ Kaisar USERBOT ♕** \n\n"
+        f"**🔆 KAISAR USERBOT 🔆** \n\n"
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
         f"┣|• `Kaisar     :`{DEFAULTUSER} \n"
         f"┣|• `Username :`@{user.username} \n"
