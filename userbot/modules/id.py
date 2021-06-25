@@ -40,6 +40,6 @@ async def image_maker(event):
 CMD_HELP.update(
     {
         "id": ">`.id`\
-        \nUsage: Reply to a user to generate ID Card."
+        \nPenggunaan: Balas ke pengguna untuk membuat Kartu ID."
     }
 )
