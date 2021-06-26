@@ -391,7 +391,7 @@ with bot:
             if event.message.from_id != uid:
                 await event.repl(
                   f"Kaisar-userbot, Buat Userbot Mu Sendiri [Tekan Disini](https://github.com/kenkannih/Kaisar-userbot) ok kak kalau butuh bantuan tekan button di bawah"
-                 disable_web_page_preview=True,
+               disable_web_page_preview=True
                   button=[
                     [
                       Button.url("💌 Channel", "t.me/musikkuchannel"),
