@@ -353,8 +353,7 @@ def paginate_help(page_number, loaded_modules, prefix):
         for x in helpable_modules
     ]
     pairs = list(zip(modules[::number_of_cols],
-                     modules[1::number_of_cols],
-                     modules[2::number_of_cols]))
+                     modules[1::number_of_cols]))
     if len(modules) % number_of_cols == 1:
         pairs.append((modules[-1],))
     max_num_pages = ceil(len(pairs) / number_of_rows)
@@ -390,7 +389,17 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("Kaisar-userbot, Buat Userbot Mu Sendiri [Tekan Disini](https://github.com/kenkannih/Kaisar-userbot)")
+                await event.repl(
+                  f"Kaisar-userbot, Buat Userbot Mu Sendiri [Tekan Disini](https://github.com/kenkannih/Kaisar-userbot) ok kak kalau butuh bantuan tekan button di bawah"
+                 disable_web_page_preview=True,
+                  button=[
+                    [
+                      Button.url("💌 Channel", "t.me/musikkuchannel"),
+                      Button.url("💬 Group", "t.me/musikkugroup"),
+                    [Button.url("👮Development", "t.me/kenkanasw")],
+                     ]
+                    ]
+                  )
             else:
                 await event.reply(f"`Hai Kaisar {ALIVE_NAME}\n\nApa Kabarmu?`")
 
