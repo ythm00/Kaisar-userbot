@@ -1,6 +1,3 @@
-
-
-
 <p align="center">
   <a href="https://github.com/kenkannih/Kaisar-userbot/fork">
     <img src="https://img.shields.io/github/forks/kenkannih/Kaisar-userbot?label=Fork&style=social">
