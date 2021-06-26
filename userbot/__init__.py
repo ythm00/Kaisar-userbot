@@ -389,16 +389,7 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.repl(
-                  f"Kaisar-userbot, Buat Userbot Mu Sendiri [Tekan Disini](https://github.com/kenkannih/Kaisar-userbot) ok kak kalau butuh bantuan tekan button di bawah"
-                  button=[
-                    [
-                      Button.url("💌 Channel", "t.me/musikkuchannel"),
-                      Button.url("💬 Group", "t.me/musikkugroup"),
-                    [Button.url("👮Development", "t.me/kenkanasw")],
-                     ]
-                    ]
-                  )
+                await event.repl("Kaisar-userbot, Buat Userbot Mu Sendiri [Tekan Disini](https://github.com/kenkannih/Kaisar-userbot)")
             else:
                 await event.reply(f"`Hai Kaisar {ALIVE_NAME}\n\nApa Kabarmu?`")
 
