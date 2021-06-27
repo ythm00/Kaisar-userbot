@@ -1,0 +1,63 @@
+import os
+from telethon.errors.rpcerrorlist import YouBlockedUserError
+
+from userbot.events import register
+from userbot import bot, TEMP_DOWNLOAD_DIRECTORY, CMD_HELP
+
+@register(outgoing=True, pattern=".butt")
+async def _(butt):
+  await butt.edit("Kaisar mencoba membuat button")
+  level=butt.pattern_match.group(2)
+  if butt.fwd.from:
+    return
+  if not butt.reply_to_msg_id:
+    await butt.edit("Mohon Kaisar balas ke media")
+    return
+  reply_message = await butt.get_reply_message()
+  if not reply_message.media:
+          await fry.edit("`Gambar tidak di dukung`")
+          return
+      if reply_message.sender.bot:
+          await fry.edit("`Mohon Balas Di Media Kaisar`")
+          return
+      chat = "@ForwardsCoverbot"
+      message_id_to_reply = fry.message.reply_to_msg_id
+      async with fry.client.conversation(chat) as conv:
+          try:
+              msg = await conv.send_message(reply_message)
+              if level:
+                  m = f"/addbutton {level}"
+                  msg_level = await conv.send_message(
+                      m,
+                      reply_to=msg.id)
+                  r = await conv.get_response()
+                  response = await conv.get_response()
+              else:
+                  response = await conv.get_response()
+              """ - don't spam notif - """
+              await bot.send_read_acknowledge(conv.chat_id)
+          except YouBlockedUserError:
+              await fry.reply("`Kaisar Mohon Unblock` @ForwardsCoverbot`...`")
+              return
+          if response.text.startswith("Forward"):
+              await fry.edit("`Kaisar Mohon Matikan Setelan Forward Privasi...`")
+          else:
+              downloaded_file_name = await fry.client.download_media(
+                  response.media,
+                  TEMP_DOWNLOAD_DIRECTORY
+              )
+              await fry.client.send_file(
+                  fry.chat_id,
+                  downloaded_file_name,
+                  force_document=False,
+                  reply_to=message_id_to_reply
+              )
+              """ - cleanup chat after completed - """
+              
+CMD_HELP.update:({
+  ".butt"
+  ".butt:\
+  \nUsage: Menambahkan button link pada media.\
+  \nFormat:tautan pertama=https://telegram.org && tautan kedua baris yang sama=https://google.it &&& tautan ketiga baris baru=https://t.me"
+})
+  
