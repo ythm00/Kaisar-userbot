@@ -1,5 +1,4 @@
-# Di buat oleh KEN KAN
-# t.me/kenkanasw
+# Dibuat kenkan @kenkanasw
 import os
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
@@ -17,14 +16,14 @@ async def _(butt):
     return
   reply_message = await butt.get_reply_message()
   if not reply_message.media:
-          await fry.edit("`Gambar tidak di dukung`")
-          return
-      if reply_message.sender.bot:
-          await fry.edit("`Mohon Balas Di Media Kaisar`")
-          return
+    await butt.edit("`Gambar tidak di dukung`")
+    return
+  if reply_message.sender.bot:
+    await butt.edit("`Mohon Balas Di Media Kaisar`")
+    return
       chat = "@ForwardsCoverbot"
-      message_id_to_reply = fry.message.reply_to_msg_id
-      async with fry.client.conversation(chat) as conv:
+      message_id_to_reply = butt.message.reply_to_msg_id
+      async with butt.client.conversation(chat) as conv:
           try:
               msg = await conv.send_message(reply_message)
               if level:
@@ -39,17 +38,17 @@ async def _(butt):
               """ - don't spam notif - """
               await bot.send_read_acknowledge(conv.chat_id)
           except YouBlockedUserError:
-              await fry.reply("`Kaisar Mohon Unblock` @ForwardsCoverbot`...`")
+              await butt.reply("`Kaisar Mohon Unblock` @ForwardsCoverbot`...`")
               return
           if response.text.startswith("Forward"):
-              await fry.edit("`Kaisar Mohon Matikan Setelan Forward Privasi...`")
+              await butt.edit("`Kaisar Mohon Matikan Setelan Forward Privasi...`")
           else:
-              downloaded_file_name = await fry.client.download_media(
+              downloaded_file_name = await butt.client.download_media(
                   response.media,
                   TEMP_DOWNLOAD_DIRECTORY
               )
-              await fry.client.send_file(
-                  fry.chat_id,
+              await butt.client.send_file(
+                  butt.chat_id,
                   downloaded_file_name,
                   force_document=False,
                   reply_to=message_id_to_reply
