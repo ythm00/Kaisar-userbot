@@ -8,7 +8,7 @@ from userbot import bot, TEMP_DOWNLOAD_DIRECTORY, CMD_HELP
 async def _(butt):
   await butt.edit("Kaisar mencoba membuat button")
   level=butt.pattern_match.group(2)
-  if butt.fwd.from:
+  if butt.fwd_from:
     return
   if not butt.reply_to_msg_id:
     await butt.edit("Mohon Kaisar balas ke media")
