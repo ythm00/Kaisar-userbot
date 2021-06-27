@@ -1,3 +1,5 @@
+# Di buat oleh KEN KAN
+# t.me/kenkanasw
 import os
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
