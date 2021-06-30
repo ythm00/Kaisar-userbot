@@ -16,6 +16,8 @@
 
 ### Repo Kaisar Userbot
 Repo Yang Dibuat [KEN KAN](https://t.me/kenkanasw) Dari Berbagai Repo Userbot Github 
+## BOT API ID DAN HASH
+<a href="https://t.me/kenkanrobot"><img src="https://img.shields.io/badge/API ID DAN HASH-blue?style=badge&logo=telegram"/></a>
 
 
 ### STRING SESSON
