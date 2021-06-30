@@ -56,7 +56,7 @@ async def kang(args):
                 in message.media.document.attributes
             ):
                 emoji = message.media.document.attributes[1].alt
-                if emoji != "👑":
+                if emoji != "🐿":
                     emojibypass = True
         elif "tgsticker" in message.media.document.mime_type:
             await args.edit(f"`{random.choice(KANGING_STR)}`")
@@ -78,7 +78,7 @@ async def kang(args):
     if photo:
         splat = args.text.split()
         if not emojibypass:
-            emoji = "👑"
+            emoji = "🐿"
         pack = 1
         if len(splat) == 3:
             pack = splat[2]  # User sent both
@@ -177,7 +177,7 @@ async def kang(args):
                         return await args.edit(
                             "`Sticker ditambahkan ke pack yang berbeda !"
                             "\nIni pack yang baru saja Kaisar buat!"
-                            f"\nTekan [Kaisar Sticker](t.me/addstickers/{packname}) Untuk Melihat Sticker Kaisar",
+                            f"\nDone [🐿TEKAN SINI](t.me/addstickers/{packname}) Untuk Melihat Sticker Kaisar",
                             parse_mode="md",
                         )
                 if is_anim:
@@ -244,7 +244,7 @@ async def kang(args):
                 await bot.send_read_acknowledge(conv.chat_id)
 
         await args.edit(
-            f"**Berhasil Menambahkan Sticker Ke Pack, Tekan** **[Kaisar Sticker](t.me/addstickers/{packname})** **Untuk Melihat Pack Anda**",
+            f"**Berhasil Menambahkan Sticker Ke Pack, Tekan** **[🐿TEKAN SINI](t.me/addstickers/{packname})** **Untuk Melihat Pack Anda**",
             parse_mode="md",
         )
 
