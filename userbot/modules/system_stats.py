@@ -1,8 +1,3 @@
-# Copyright (C) 2019 The Raphielscape Company LLC.
-#
-# Licensed under the Raphielscape Public License, Version 1.d (the "License");
-# you may not use this file except in compliance with the License.
-#
 # System Stats Kaisar-userbot
 
 import asyncio
@@ -164,9 +159,9 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**▶️**Kaisar-userbot Versi:** \n "
+            "**🐿**Kaisar-userbot Versi:** \n "
             f"{verout}"
-            "\n**▶️**Revisi:**\n "
+            "\n**️🐿**Revisi:**\n "
             f"{revout}"
         )
     else:
@@ -233,15 +228,15 @@ async def amireallyalive(alive):
         f" **┗┓KAISAR USERBOT┏┛** \n"
         f"\n__**{Kaisar_TEKS_KUSTOM}**__\n"
         f"**━━━━━━━━━━━━━━━━━━━━**\n"
-        f"**🏆 ᴋᴀɪꜱᴀʀ** \n"
+        f"**🐿 ᴋᴀɪꜱᴀʀ** \n"
         f" ➥ `{DEFAULTUSER}` \n"
-        f"**🏆 ᴜsᴇʀɴᴀᴍᴇ** \n"
+        f"**🐿 ᴜsᴇʀɴᴀᴍᴇ** \n"
         f" ➥ `@{user.username}` \n"
         f"┏━━━━━━━━━━━━━━━━━━━\n"
-        f"┣[• `Telethon  :`Ver {version.__version__} \n"
-        f"┣[• `Python     :`Ver {python_version()} \n"
-        f"┣[• `Bot Ver    :`{BOT_VER} \n"
-        f"┣[• `Modules  :`{len(modules)} Modules \n"
+        f"┣[• `Telethon :`Ver {version.__version__} \n"
+        f"┣[• `Python   :`Ver {python_version()} \n"
+        f"┣[• `Bot Ver  :`{BOT_VER} \n"
+        f"┣[• `Modules  :`{len(modules)} Modules\n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
@@ -268,9 +263,9 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**▬▬▬▬▬▬❙۩🏆۩❙▬▬▬▬▬▬**\n"
-        f"     **♕ KAISAR USERBOT ♕** \n\n"
-        f"❃ **Kaisar**     \n   ➥ `{DEFAULTUSER}` \n"
+        f"**▬▬▬▬▬▬❙۩🐿۩❙▬▬▬▬▬**\n"
+        f"**♕ KAISAR USERBOT ♕** \n\n"
+        f"❃ **Kaisar**     \n ➥ `{DEFAULTUSER}` \n"
         f"❃ **Username** \n   ➥ `@{user.username}` \n"
         f"❃ **Telethon** \n   ➥ `Versi {version.__version__}` \n"
         f"❃ **Python**   \n   ➥ `Versi {python_version()}` \n"
@@ -307,13 +302,13 @@ async def amireallyalive(alive):
     output = (
         f"**🔆 KAISAR USERBOT 🔆** \n\n"
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
-        f"┣|• `Kaisar         :`{DEFAULTUSER} \n"
-        f"┣|• `Username  :`@{user.username} \n"
-        f"┣|• `Telethon     :`Ver {version.__version__} \n"
-        f"┣|• `Python        :`Ver {python_version()} \n"
-        f"┣|• `Branch        :`{UPSTREAM_REPO_BRANCH} \n"
-        f"┣|• `Bot Ver        :`{BOT_VER} \n"
-        f"┣|• `Modules      :`{len(modules)} Modules \n"
+        f"┣|• `KAISAR   :`{DEFAULTUSER}\n"
+        f"┣|• `Username   :`@{user.username}\n"
+        f"┣|• `Telethon   :`Ver {version.__version__}\n"
+        f"┣|• `Python     :`Ver {python_version()}\n"
+        f"┣|• `Branch:`{UPSTREAM_REPO_BRANCH}\n"
+        f"┣|• `Bot Ver        :`{BOT_VER}\n"
+        f"┣|• `Modules    :`{len(modules)} Modules\n"
         f"┗━━━━━━━━━━━━━━━━━━━ \n\n"
         f"[Repo](https://github.com/kenkannih/Kaisar-userbot) | [Grup Support](t.me/musikkugroup) | [Owner](t.me/kenkanasw)")
     if ALIVE_LOGO:
