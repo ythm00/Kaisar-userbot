@@ -123,7 +123,7 @@
       "value": "./downloads/"
     },
     "CLEAN_WELCOME": {
-      "description": "When a new person joins, the old welcome message is deleted.",
+      "description": "Menghapus pesan welcome lama saat member baru join",
       "value": "True"
     },
     "G_DRIVE_FOLDER_ID": {
@@ -131,7 +131,7 @@
       "required": false
     },
     "HEROKU_MEMEZ": {
-      "description": "This should be True if the userbot is running on a Heroku Dyno.",
+      "description": "Jangan di ubah.",
       "value": "True",
       "required": true
     },
@@ -182,15 +182,15 @@
       "required": false
     },
     "G_PHOTOS_CLIENT_ID": {
-      "description": "get the client id from https://j.mp/39lWQQm",
+      "description": "Dapatkan di https://j.mp/39lWQQm",
       "required": false
     },
     "G_PHOTOS_CLIENT_SECRET": {
-      "description": "get the client secret from https://j.mp/39lWQQm",
+      "description": "Dapatkan di https://j.mp/39lWQQm",
       "required": false
     },
     "BITLY_TOKEN": {
-      "description": "Your Bit.ly API key, get it from 'https://bitly.com/a/sign_up'",
+      "description": "Isi Bit.ly API key, dapatkan di 'https://bitly.com/a/sign_up'",
       "value": "o_1fpd9299vp",
       "required": false
     },
@@ -199,29 +199,29 @@
       "required": false
     },
     "LYDIA_API_KEY": {
-      "description": "This Module Needs CoffeeHouse API to work. so Join https://telegram.dog/IntellivoidDev and send #activateapi and follow instructions.",
+      "description": "Hanya untuk pro tidak di isi juga gak papa.",
       "required": false
     },
     "WEATHER_DEFCITY": {
-      "description": "Set the default city for the userbot's weather module.",
-      "value": "",
+      "description": "Isi dengan lokasi tempat tinggal kamu.",
+      "value": "Jakarta",
       "required": false
     },
     "LOGSPAMMER": {
-      "description": "Set this to True in case you want the error logs to be stored in the userbot log group, instead of spitting out the file in the current chat, requires a valid BOTLOG_CHATID to be set.",
+      "description": "Setel ini ke True jika Anda ingin log kesalahan disimpan di grup log userbot, dari pada nyampah dalam obrolan saat ini, mintalah BOTLOG_CHATID yang valid untuk disetel.",
       "value": "True",
       "required": true
     },
     "DEEZER_ARL_TOKEN": {
-      "description": "Input your DEEZER ARL TOKEN https://notabug.org/RemixDevs/DeezloaderRemix/wiki/Login+via+userToken",
+      "description": "Hanya untuk pro gak usah isi DEEZER ARL TOKEN https://notabug.org/RemixDevs/DeezloaderRemix/wiki/Login+via+userToken",
       "required": false
     },
     "UPSTREAM_REPO_URL": {
-      "description": "In case you maintain a fork, add your repo URL here.",
+      "description": "Isi dengan link github hasil fork lu",
       "required": false
     },
     "BOT_TOKEN": {
-      "description": "Set this to enable inline bot helper. get the token from @BotFather",
+      "description": "Bikin newbot di bot @BotFather untuk dapetin api token",
       "required": false
     },
     "BOT_USERNAME": {
