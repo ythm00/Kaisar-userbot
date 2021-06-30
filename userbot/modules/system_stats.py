@@ -308,12 +308,12 @@ async def amireallyalive(alive):
         f"**🔆 KAISAR USERBOT 🔆** \n\n"
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
         f"┣|• `Kaisar         :`{DEFAULTUSER} \n"
-        f"┣|• `Username :`@{user.username} \n"
-        f"┣|• `Telethon.   :`Ver {version.__version__} \n"
-        f"┣|• `Python.      :`Ver {python_version()} \n"
-        f"┣|• `Branch       :`{UPSTREAM_REPO_BRANCH} \n"
-        f"┣|• `Bot Ver       :`{BOT_VER} \n"
-        f"┣|• `Modules     :`{len(modules)} Modules \n"
+        f"┣|• `Username  :`@{user.username} \n"
+        f"┣|• `Telethon     :`Ver {version.__version__} \n"
+        f"┣|• `Python        :`Ver {python_version()} \n"
+        f"┣|• `Branch        :`{UPSTREAM_REPO_BRANCH} \n"
+        f"┣|• `Bot Ver        :`{BOT_VER} \n"
+        f"┣|• `Modules      :`{len(modules)} Modules \n"
         f"┗━━━━━━━━━━━━━━━━━━━ \n\n"
         f"[Repo](https://github.com/kenkannih/Kaisar-userbot) | [Grup Support](t.me/musikkugroup) | [Owner](t.me/kenkanasw)")
     if ALIVE_LOGO:
