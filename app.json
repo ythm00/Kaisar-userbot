@@ -15,15 +15,15 @@
   "stack": "container",
   "env": {
     "API_KEY": {
-      "description": "Dapatkan Api Key di web my.telegram.org.",
+      "description": "Dapatkan Api Key di web my.telegram.org atau di @Kenkanrobot.",
       "required": true
     },
     "API_HASH": {
-      "description": "Dapatkan Api Hash Di Web my.telegram.org.",
+      "description": "Dapatkan Api Hash Di Web my.telegram.org atau di @Kenkanrobot.",
       "required": true
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di termux caranya ada di repo, jika tidak tau reponya tanya @kenkanasw di telegram",
+      "description": "Dapatkan String Session di readmi string session, jika tidak tau reponya tanya @kenkanasw di telegram",
       "required": true
     },
     "HEROKU_APP_NAME": {
