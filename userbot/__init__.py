@@ -3,6 +3,7 @@
 # Licensed under the Raphielscape Public License, Version 1.d (the "License");
 # you may not use this file except in compliance with the License.
 # inline credit @keselekpermen69
+# inline credit @kenkanasw
 # Pengguna Kaisar-userbot
 """ Userbot initialization. """
 
@@ -369,6 +370,9 @@ def paginate_help(page_number, loaded_modules, prefix):
                     "◀️", data="{}_prev({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
+                    "TUTUP", data="{}_close({})".format(prefix, modulo_page)
+                ),
+                custom.Button.inline(
                     "▶️", data="{}_next({})".format(prefix, modulo_page)
                 )
             )
@@ -400,16 +404,16 @@ with bot:
             builder = event.builder
             result = None
             query = event.text
-            if event.query.user_id == uid and query.startswith("@UserButt"):
+            if event.query.user_id == uid and query.startswith(
+                    "@Kaisar-userbot"):
                 buttons = paginate_help(0, dugmeler, "helpme")
-                result = builder.article(
-                    "Harap Gunakan .help Untuk Perintah",
-                    text="{}\n\n**❃ Jumlah Modul Yang Tersedia:** `{}`\n               \n**❃ Daftar Modul Kaisar Userbot:** \n".format(
-                        "**🏆 KAISAR USERBOT**",
+                result = builder.photo(
+                    file=kaisarlogo,
+                    link_preview=False,
+                    text=f"🐿KAISAR-USERBOT🐿\n\n🐿**Owner : {ALIVE_NAME}**\n\n⚡ **Bot Ver :** `5.0`\n⚡ **𝗠Modules :** `{len(plugins)}`\n\n⚡ **Dev : KEN KAN **".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
-                    link_preview=False,
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
@@ -440,13 +444,22 @@ with bot:
             )
         )
         async def on_plug_in_callback_query_handler(event):
-            if event.query.user_id == uid:  # pylint:disable=E0602
-                current_page_number = int(
-                    event.data_match.group(1).decode("UTF-8"))
-                buttons = paginate_help(
-                    current_page_number + 1, dugmeler, "helpme")
+            if event.query.user_id == uid:  # @Kaisar-userbot
                 # https://t.me/TelethonChat/115200
-                await event.edit(buttons=buttons)
+                await event.edit(
+                    file=kaisarlogo,
+                    link_preview=True,
+                    buttons=[
+                        [
+                            Button.url("📢 Channel Support",
+                                       "t.me/musikkuchannel"),
+                            Button.url("🚨 Group support",
+                                       "t.me/musikkugroup")],
+                        [custom.Button.inline(
+                            "Close", b"close")],
+                    ]
+                )
+
             else:
                 reply_pop_up_alert = f"Harap Deploy Kaisar Userbot Anda Sendiri, Jangan Menggunakan Milik Kaisar {ALIVE_NAME} ツ"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
