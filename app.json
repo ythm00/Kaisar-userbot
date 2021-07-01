@@ -45,6 +45,11 @@
       "value": "{} {} 🐶",
       "required": true
     },
+    "BUTTON": {
+      "description": "Isi dengan emot yang akan di pake handler button",
+      "value": "🐶",
+      "required": true
+    },
     "BOTLOG_CHATID": {
       "description": "Buatlah sebuah grup private/public masukan bot rose lalu ketik /id.",
       "value": "",
