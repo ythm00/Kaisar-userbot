@@ -369,10 +369,7 @@ def paginate_help(page_number, loaded_modules, prefix):
             (
                 custom.Button.inline(
                     "◀️", data="{}_prev({})".format(prefix, modulo_page)
-                ),
-                custom.Button.inline(
-                    "TUTUP", data="{}_close({})".format(prefix, modulo_page)
-                ),
+                ),     
                 custom.Button.inline(
                     "▶️", data="{}_next({})".format(prefix, modulo_page)
                 )
@@ -406,18 +403,39 @@ with bot:
             builder = event.builder
             result = None
             query = event.text
-            if event.query.user_id == uid and query.startswith(
-                    "@Kaisar-userbot"):
+            if event.query.user_id == uid and query.startswith("@UserButt"):
                 buttons = paginate_help(0, dugmeler, "helpme")
-                result = builder.photo(
-                    file=kaisarlogo,
-                    link_preview=False,
-                    text=f"🐿KAISAR-USERBOT🐿\n\n🐿**Owner : {ALIVE_NAME}**\n\n⚡ **Bot Ver :** `5.0`\n⚡ **𝗠Modules :** `{len(plugins)}`\n\n⚡ **Dev : KEN KAN **".format(
+                result = builder.article(
+                    "Harap Gunakan .help Untuk Perintah",
+                    text="{}\n\n**❃ Jumlah Modul Yang Tersedia:** `{}`\n               \n**❃ Daftar Modul Kaisar Userbot:** \n".format(
+                        f"**{BUTTON2}KAISAR-USERBOT**",
                         len(dugmeler),
                     ),
                     buttons=buttons,
-                )           
-            
+                    link_preview=False,
+                )
+            elif query.startswith("tb_btn"):
+                result = builder.article(
+                    "Bantuan Kaisar✗Userbot ",
+                    text="Daftar Modul",
+                    buttons=[],
+                    link_preview=True)
+            else:
+                result = builder.article(
+                    "**Kaisar✗Userbot**",
+                    text="""**Anda Bisa Membuat KAISAR-USERBOT Anda Sendiri Dengan Cara:** [Tekan Disini](t.me/musikkugroup)""",
+                    buttons=[
+                        [
+                            custom.Button.url(
+                                "KAISAR-USERBOT",
+                                "https://github.com/kenkannih/Kaisar-userbot"),
+                            custom.Button.url(
+                                "Pemilik Repo",
+                                "t.me/kenkanasw")],
+                    ],
+                    link_preview=False,
+                )
+            await event.answer([result] if result else None)
 
         @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
