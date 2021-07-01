@@ -182,8 +182,7 @@ ALIVE_USERNAME = os.environ.get("ALIVE_USERNAME", None)
 S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive logo
-ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/609c527f4408a5b755a56.jpg"
+ALIVE_LOGO = os.environ.get("ALIVE_LOGO") or "https://telegra.ph/file/c4f0f54339957ccba4118.jpg"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -238,7 +237,7 @@ BOT_USERNAME = os.environ.get("BOT_USERNAME") or None
 MONGOCLIENT = MongoClient(MONGO_URI, 27017, serverSelectionTimeoutMS=1)
 MONGO = MONGOCLIENT.userbot
 # Default .helpme Logo
-INLINE_PIC = os.environ.get("INLINE_PIC", "")
+INLINE_PIC = os.environ.get("INLINE_PIC", "https://telegra.ph/file/c4f0f54339957ccba4118.jpg")
 
 
 def is_mongo_alive():
