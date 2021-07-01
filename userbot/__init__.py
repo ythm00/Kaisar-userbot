@@ -133,7 +133,7 @@ WEATHER_DEFCITY = os.environ.get("WEATHER_DEFCITY", None)
 
 # Lydia API
 LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)
-
+BUTTON = os.environ.get("BUTTON", None)
 # For MONGO based DataBase
 MONGO_URI = os.environ.get("MONGO_URI", None)
 
@@ -230,8 +230,7 @@ API_URL = os.environ.get("API_URL", "http://antiddos.systems")
 # Inline bot helper
 BOT_TOKEN = os.environ.get("BOT_TOKEN") or None
 BOT_USERNAME = os.environ.get("BOT_USERNAME") or None
-# Button helpme
-BUTTON = os.environ.get("BUTTON", None)
+
 # Init Mongo
 MONGOCLIENT = MongoClient(MONGO_URI, 27017, serverSelectionTimeoutMS=1)
 MONGO = MONGOCLIENT.userbot
@@ -350,7 +349,7 @@ def paginate_help(page_number, loaded_modules, prefix):
     helpable_modules = [p for p in loaded_modules if not p.startswith("_")]
     helpable_modules = sorted(helpable_modules)
     modules = [
-        custom.Button.inline(f"{} {}🏆".format(f"{BUTTON}", x), data=f"ub_modul_{BUTTON}".format(x))
+        custom.Button.inline("{} {} 🐶".format(f"{BUTTON}", x), data=f"ub_modul_{}".format(x))
         for x in helpable_modules
     ]
     pairs = list(zip(modules[::number_of_cols],
