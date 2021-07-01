@@ -42,7 +42,7 @@
     },
     "BUTTON": {
       "description": "Isi dengan emot yang akan di pake handler button",
-      "value": "🐶",
+      "value": "{} {} 🐶",
       "required": true
     },
     "BOTLOG_CHATID": {
