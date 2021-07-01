@@ -136,7 +136,6 @@ WEATHER_DEFCITY = os.environ.get("WEATHER_DEFCITY", None)
 LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)
 # handler
 BUTTON = os.environ.get("BUTTON", "")
-BUTTON2 = os.environ.get("BUTTON2", "")
 # For MONGO based DataBase
 MONGO_URI = os.environ.get("MONGO_URI", None)
 
@@ -353,7 +352,7 @@ def paginate_help(page_number, loaded_modules, prefix):
     helpable_modules = [p for p in loaded_modules if not p.startswith("_")]
     helpable_modules = sorted(helpable_modules)
     modules = [
-        custom.Button.inline(f"{BUTTON}".format(f"{BUTTON2}", x), data="ub_modul_{}".format(x))
+        custom.Button.inline("{} {} {} ".format(f"{BUTTON}", x, f"{BUTTON}"), data="ub_modul_{}".format(x))
         for x in helpable_modules
     ]
     pairs = list(zip(modules[::number_of_cols],
