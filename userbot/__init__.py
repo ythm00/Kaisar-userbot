@@ -133,7 +133,7 @@ WEATHER_DEFCITY = os.environ.get("WEATHER_DEFCITY", None)
 
 # Lydia API
 LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)
-BUTTON = os.environ.get("BUTTON", None)
+BUTTON = os.environ.get("BUTTON", "")
 # For MONGO based DataBase
 MONGO_URI = os.environ.get("MONGO_URI", None)
 
