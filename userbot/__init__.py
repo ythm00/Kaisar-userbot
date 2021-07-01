@@ -237,6 +237,8 @@ BOT_USERNAME = os.environ.get("BOT_USERNAME") or None
 # Init Mongo
 MONGOCLIENT = MongoClient(MONGO_URI, 27017, serverSelectionTimeoutMS=1)
 MONGO = MONGOCLIENT.userbot
+# Default .helpme Logo
+INLINE_PIC = os.environ.get("INLINE_PIC", "")
 
 
 def is_mongo_alive():
@@ -387,7 +389,8 @@ with bot:
             api_id=API_KEY,
             api_hash=API_HASH).start(
             bot_token=BOT_TOKEN)
-
+         
+        kaisarlogo = INLINE_PIC
         dugmeler = CMD_HELP
         me = bot.get_me()
         uid = me.id
