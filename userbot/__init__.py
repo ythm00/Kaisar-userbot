@@ -404,7 +404,7 @@ with bot:
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.article(
                     "Harap Gunakan .help Untuk Perintah",
-                    text=f"{ALIVE_LOGO}\n\n**❃ Jumlah Modul Yang Tersedia:** `{}`\n               \n**❃ Daftar Modul Kaisar Userbot:** \n  \nᴏᴡɴᴇʀ : {ALIVE_NAME}".format(
+                    text=f"{} {ALIVE_LOGO}\n\n**❃ Jumlah Modul Yang Tersedia:** `{}`\n               \n**❃ Daftar Modul Kaisar Userbot:** \n  \nᴏᴡɴᴇʀ : {ALIVE_NAME}".format(
                         "**🏆 KAISAR USERBOT**",
                         len(dugmeler),
                     ),
