@@ -353,7 +353,7 @@ def paginate_help(page_number, loaded_modules, prefix):
     helpable_modules = [p for p in loaded_modules if not p.startswith("_")]
     helpable_modules = sorted(helpable_modules)
     modules = [
-        custom.Button.inline(f"{BUTTON}".format(f"{BUTTON2}", x), data="ub_modul_{}".format(x))
+        custom.Button.inline("{} {} {} ".format(f"{BUTTON}", x, f"{BUTTON}"), data="ub_modul_{}".format(x))
         for x in helpable_modules
     ]
     pairs = list(zip(modules[::number_of_cols],
@@ -416,29 +416,8 @@ with bot:
                         len(dugmeler),
                     ),
                     buttons=buttons,
-                )
-            elif query.startswith("tb_btn"):
-                result = builder.article(
-                    "Bantuan Kaisar✗Userbot ",
-                    text="Daftar Modul",
-                    buttons=[],
-                    link_preview=True)
-            else:
-                result = builder.article(
-                    "**Kaisar✗Userbot**",
-                    text="""**Anda Bisa Membuat Kaisar Userbot Anda Sendiri Dengan Cara:** [Tekan Disini](t.me/musikkugroup)""",
-                    buttons=[
-                        [
-                            custom.Button.url(
-                                "Repo Kaisar-userbot",
-                                "https://github.com/kenkannih/Kaisar-userbot"),
-                            custom.Button.url(
-                                "Pemilik Repo",
-                                "t.me/kenkanasw")],
-                    ],
-                    link_preview=False,
-                )
-            await event.answer([result] if result else None)
+                )           
+            
 
         @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
