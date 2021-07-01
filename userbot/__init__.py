@@ -391,7 +391,7 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.repl("Kaisar-userbot, Buat Userbot Mu Sendiri [Tekan Disini](https://github.com/kenkannih/Kaisar-userbot)")
+                await event.reply("KAISAR-USERBOT, Buat Userbot Mu Sendiri [Tekan Disini](https://github.com/kenkannih/Kaisar-userbot)")
             else:
                 await event.reply(f"`Hai Kaisar {ALIVE_NAME}\n\nApa Kabarmu?`")
 
@@ -404,7 +404,7 @@ with bot:
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.article(
                     "Harap Gunakan .help Untuk Perintah",
-                    text="{}\n\n**❃ Jumlah Modul Yang Tersedia:** `{}`\n               \n**❃ Daftar Modul Kaisar Userbot:** \n".format(
+                    text=f"{ALIVE_LOGO}\n\n**❃ Jumlah Modul Yang Tersedia:** `{}`\n               \n**❃ Daftar Modul Kaisar Userbot:** \n  \nᴏᴡɴᴇʀ : {ALIVE_NAME}".format(
                         "**🏆 KAISAR USERBOT**",
                         len(dugmeler),
                     ),
