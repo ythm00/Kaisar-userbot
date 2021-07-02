@@ -444,21 +444,13 @@ with bot:
             )
         )
         async def on_plug_in_callback_query_handler(event):
-            if event.query.user_id == uid:  # @Kaisar-userbot
+            if event.query.user_id == uid:  # pylint:disable=E0602
+                current_page_number = int(
+                    event.data_match.group(1).decode("UTF-8"))
+                buttons = paginate_help(
+                    current_page_number + 1, dugmeler, "helpme")
                 # https://t.me/TelethonChat/115200
-                await event.edit(
-                    file=kaisarlogo,
-                    link_preview=True,
-                    buttons=[
-                        [
-                            custom.Button.url("📢 Channel Support",
-                                       "t.me/musikkuchannel"),
-                            custom.Button.url("🚨 Group support",
-                                       "t.me/musikkugroup")],
-                        [custom.Button.inline(
-                            "Close", b"close")],
-                    ]
-                )
+                await event.edit(buttons=buttons)
 
             else:
                 reply_pop_up_alert = f"Harap Deploy Kaisar Userbot Anda Sendiri, Jangan Menggunakan Milik Kaisar {ALIVE_NAME} ツ"
