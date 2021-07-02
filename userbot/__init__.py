@@ -402,14 +402,14 @@ with bot:
         async def inline_handler(event):
             builder = event.builder
             result = None
-            photo = kaisarlogo
             query = event.text
             if event.query.user_id == uid and query.startswith("@UserButt"):
                 buttons = paginate_help(0, dugmeler, "helpme")
+                logo = kaisarlogo
                 result = builder.article(
                     "Harap Gunakan .help Untuk Perintah",
                     text="{}\n\n**❃ Jumlah Modul Yang Tersedia:** `{}`\n               \n**❃ Daftar Modul Kaisar Userbot:** \n".format(
-                        f"**{BUTTON2}KAISAR-USERBOT**",
+                        f"**{BUTTON}KAISAR-USERBOT**",
                         len(dugmeler),
                     ),
                     buttons=buttons,
