@@ -41,12 +41,7 @@
       "required": true
     },
    "BUTTON": {
-      "description": "Isi dengan emot yang akan di pake handler button note jangan hapus {} {}",
-      "value": "{} {} 🐶",
-      "required": true
-    },
-    "BUTTON2": {
-      "description": "Isi dengan emot yang akan di pake handler button",
+      "description": "Isi dengan emot yang akan di pake handler button.",
       "value": "🐶",
       "required": true
     },
