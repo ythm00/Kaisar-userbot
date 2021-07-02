@@ -451,9 +451,9 @@ with bot:
                     link_preview=True,
                     buttons=[
                         [
-                            Button.url("📢 Channel Support",
+                            custom.Button.url("📢 Channel Support",
                                        "t.me/musikkuchannel"),
-                            Button.url("🚨 Group support",
+                            custom.Button.url("🚨 Group support",
                                        "t.me/musikkugroup")],
                         [custom.Button.inline(
                             "Close", b"close")],
