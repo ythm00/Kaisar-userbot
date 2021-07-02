@@ -169,6 +169,11 @@
       "description": "Nama untuk menunjukan pesan .alive",
       "required": false
     },
+    "ALIVE_LOGO": {
+      "description": "Gambar untuk menunjukan pesan .alive",
+      "required": false,
+      "value": "https://telegra.ph/file/c4f0f54339957ccba4118.jpg"
+    },
     "Kaisar_TEKS_KUSTOM": {
       "description": "Kustom Pesan Alive Mu Untuk Perintah .Kaisar (Isi Terserah)",
       "required": false
