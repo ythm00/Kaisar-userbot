@@ -2979,7 +2979,7 @@ async def _(event):
 
 
 CMD_HELP.update({
-"Kaisarmemes":
+    "kmemes":
       "`.eye`\
   \nUsage: Lihat Sendiri.\
   \n\n`.earth`\
