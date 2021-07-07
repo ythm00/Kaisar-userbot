@@ -10,9 +10,10 @@
 <a href="https://pypi.org/project/Telethon/"><img src="https://img.shields.io/pypi/v/telethon?color=important&label=telethon&logo=python&logoColor=brightgreen&style=for-the-badge" /></a>
 <img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v3.9.5-white?style=for-the-badge&logo=appveyor"/>
 </p>
-<p align="center"><img src="https://2.bp.blogspot.com/-eBu3-f3vzW0/V3E8UnYXsfI/AAAAAAAADHI/lJrPAoLSE70aO0F3W9fruZ8O-qJY76MSwCLcB/s1600/gambar-gerak-gif-chip-and-dale-terbaru.gif" style="width:100%"></p>
-
+<p align="center">
+<img src="https://2.bp.blogspot.com/-eBu3-f3vzW0/V3E8UnYXsfI/AAAAAAAADHI/lJrPAoLSE70aO0F3W9fruZ8O-qJY76MSwCLcB/s1600/gambar-gerak-gif-chip-and-dale-terbaru.gif" style="width:100%">
 <a href="https://hub.docker.com/jokokendil/ambohju"> <img src="https://img.shields.io/docker/image-size/jokokendil/ambohju/buster?label=docker%20image%20size&logo=docker&style=for-the-badge" /></a>
+</p>
 
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=kenkannih&repo=Kaisar-userbot&theme=dark)
 
