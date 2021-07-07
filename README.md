@@ -1,3 +1,10 @@
+[![GitHub contributors](https://img.shields.io/github/contributors/kenkannih/Kaisar-userbot?&style=plastic&logo=github)](https://GitHub.com/kenkannih/Kaisar-userbot/graphs/contributors/)
+[![PR Open](https://img.shields.io/github/issues-pr/kenkannih/Kaisar-userbot?&style=plastic&logo=github)](https://github.com/kenkannih/Kaisar-userbot/pulls)
+[![PR Closed](https://img.shields.io/github/issues-pr-closed/kenkannih/Kaisar-userbot?&style=plastic&logo=github)](https://github.com/kenkannih/Kaisar-userbot/pulls?q=is:closed)
+<p align="center">
+<a href="https://pypi.org/project/Telethon/"><img src="https://img.shields.io/pypi/v/telethon?color=important&label=telethon&logo=python&logoColor=brightgreen&style=for-the-badge" /></a>
+<img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v3.9.5-white?style=for-the-badge&logo=appveyor"/>
+</p>
 <p align="center"><img src="https://2.bp.blogspot.com/-eBu3-f3vzW0/V3E8UnYXsfI/AAAAAAAADHI/lJrPAoLSE70aO0F3W9fruZ8O-qJY76MSwCLcB/s1600/gambar-gerak-gif-chip-and-dale-terbaru.gif" style="width:100%"></p>
 
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=kenkannih&repo=Kaisar-userbot&theme=dark)
