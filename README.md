@@ -36,12 +36,13 @@
 ### Repo Kaisar Userbot
 Repo Yang Dibuat [KEN KAN](https://t.me/kenkanasw) Dari Berbagai Repo Userbot Github 
 ## BOT API ID DAN HASH
-<a href="https://t.me/kenkanrobot"><img src="https://img.shields.io/badge/API ID DAN HASH-blue?style=badge&logo=telegram"/></a>
+
+<p align="center"><a href="https://t.me/kenkanrobot"><img src="https://img.shields.io/badge/API ID DAN HASH-blue?style=badge&logo=Telegram"width="300" height="50"/></a></p>
 
 
 ### STRING SESSON
 
-<a href="https://replit.com/@kenkannih/strings-session#main.py"><img src="https://img.shields.io/badge/STRINGS-SESSION-blue?badge&logo=style=replit"/></a>
+<p align="center"><a href="https://replit.com/@kenkannih/strings-session#main.py"><img src="https://img.shields.io/badge/STRINGS-SESSION-blue?badge&logo=style=repl.it"width="300" height="50" /></a></p>
 
 ## Bagaimana Cara Deploy?
 
