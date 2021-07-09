@@ -11,7 +11,7 @@
 
 
 <p align="center">
-  <img src="./resources/extras/kaisar.gif" alt="kaisar Logo"width="400" height="60">
+  <img src="./resources/extras/kaisar.gif" alt="kaisar Logo"width="400" height="170">
 </p>
 <p align="center">
   <a href="https://github.com/kenkannih/Kaisar-userbot/contributors">
