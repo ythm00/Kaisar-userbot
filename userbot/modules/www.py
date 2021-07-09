@@ -110,12 +110,12 @@ async def pingme(pong):
     await pong.edit("**:۞: PONG!**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"┏━━━━━━༻❁༺━━━━━━┓\nＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ\n┗━━━━━━༻❁༺━━━━━━┛\n"
+    await pong.edit(f"┏━━━━━━༻❁༺━━━━━━┓\n ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ\n┗━━━━━━༻❁༺━━━━━━┛\n"
                     f":۞:ＰＩＮＧ:"
                     f"`%sms` \n"
                     f":۞: ＵＰＴＩＭＥ:"
                     f"`{uptime}` \n"
-                    f"┍━━☽【❖】☾━━┑\n          кคเรคг\n┕━━☽【❖】☾━━┙: `{ALIVE_NAME}`" % (duration))
+                    f"**【❖】My кคเรคг\n : `{ALIVE_NAME}`" % (duration))
 
 
 @register(outgoing=True, pattern="^.sinyal$")
@@ -192,7 +192,7 @@ async def pingme(pong):
     await pong.edit("`ＰＯＮＧ:۞:.....`")
     end = datetime.now()
     duration = (end - start).microseconds / 9000
-    await pong.edit(f"┏━━━━━━༻❁༺━━━━━━┓\nＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ\n┗━━━━━━༻❁༺━━━━━━┛\n"
+    await pong.edit(f"┏━━━━━━༻❁༺━━━━━━┓\n ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ\n┗━━━━━━༻❁༺━━━━━━┛\n"
                                  f"✘ ＰＩＮＧ!\n`%sms`" % (duration))
 
 CMD_HELP.update(
