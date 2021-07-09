@@ -44,12 +44,12 @@
 Repo Yang Dibuat [KEN KAN](https://t.me/kenkanasw) Dari Berbagai Repo Userbot Github 
 ## BOT API ID DAN HASH
 
-<p align="center"><a href="https://t.me/kenkanrobot"><img src="https://img.shields.io/badge/API ID DAN HASH-blue?style=plastic&logo=Telegram"width="300" height="50"/></a></p>
+<p align="center"><a href="https://t.me/kenkanrobot"><img src="https://img.shields.io/badge/API ID-DAN HASH-blue?style=plastic&logo=Telegram"width="300" height="50"/></a></p>
 
 
 ### STRING SESSON
 
-<p align="center"><a href="https://replit.com/@kenkannih/strings-session#main.py"><img src="https://img.shields.io/badge/REPLIT-STRINGS-white?style=badge&logo=replit"width="300" height="50" /></a></p>
+<p align="center"><a href="https://replit.com/@kenkannih/strings-session#main.py"><img src="https://img.shields.io/badge/REPLIT-STRINGS-yellow?style=plastic&logo=replit&logoColor=yellow"width="270" height="40" /></a></p>
 
 ## Bagaimana Cara Deploy?
 
@@ -70,7 +70,7 @@ Atau Bisa Gabung Ke Grup Kaisar Userbot -> [TEKAN DISINI](https://t.me/musikkugr
 ## <p align="center">DEPLOY KAISAR-USERBOT</p>
 
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/kenkannih/Kaisar-userbot"> <img src="https://img.shields.io/badge/BUAT%20DI%20HEROKU-gold?style=plastic&logo=heroku" width="300" height="50"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/kenkannih/Kaisar-userbot"> <img src="https://img.shields.io/badge/BUAT DI-HEROKU-blue?style=plastic&logo=heroku&logoColor=yellow"width="300" height="50" /></a></p>
 
 <br>
 </p>
