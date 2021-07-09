@@ -1,18 +1,14 @@
 <p align="center">
+  <img src="./resources/extras/kaisar.gif" alt="kaisar Logo"width="400" height="170">
+</p>
+<p align="center">
   <a href="https://github.com/kenkannih/Kaisar-userbot/fork">
     <img src="https://img.shields.io/github/forks/kenkannih/Kaisar-userbot?label=FORK&style=badge&logo=github"width="150" height="50"> 
   </a>
-
-
   <a href="https://github.com/kenkannih/Kaisar-userbot">
     <img src="https://img.shields.io/github/stars/kenkannih/Kaisar-userbot?label=STAR&style=badge&logo=github"width="150" height="50">
   </a>
 </p>  
-
-
-<p align="center">
-  <img src="./resources/extras/kaisar.gif" alt="kaisar Logo"width="400" height="170">
-</p>
 <p align="center">
   <a href="https://github.com/kenkannih/Kaisar-userbot/contributors">
     <img src="https://img.shields.io/github/contributors/kenkannih/Kaisar-userbot?label=CONTRIBUTORS&style=badge&logo=github"width="200" height="40">
