@@ -3,10 +3,10 @@
 </p>
 <p align="center">
   <a href="https://github.com/kenkannih/Kaisar-userbot/fork">
-    <img src="https://img.shields.io/github/forks/kenkannih/Kaisar-userbot?label=FORK&style=badge&logo=github"width="150" height="50"> 
+    <img src="https://img.shields.io/github/forks/kenkannih/Kaisar-userbot?label=FORK&style=badge&logo=github"width="100" height="50"> 
   </a>
   <a href="https://github.com/kenkannih/Kaisar-userbot">
-    <img src="https://img.shields.io/github/stars/kenkannih/Kaisar-userbot?label=STAR&style=badge&logo=github"width="150" height="50">
+    <img src="https://img.shields.io/github/stars/kenkannih/Kaisar-userbot?label=STAR&style=badge&logo=github"width="100" height="50">
   </a>
 </p>  
 <p align="center">
