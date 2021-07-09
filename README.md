@@ -8,10 +8,7 @@
   <a href="https://github.com/kenkannih/Kaisar-userbot/issues-pr">
     <img src="https://img.shields.io/github/issues-pr/kenkannih/Kaisar-userbot?label=ISSUES&style=plastic&logo=github"width="170" height="40">
   </a>  
-  <a href="https://github.com/kenkannih/Kaisar-userbot/commit-activity">
-    <img src="https://img.shields.io/github/commit-activity/kenkannih/Kaisar-userbot?label=COMMIT&style=plastic&logo=github"width="170" height="40">
-  </a>
-</p>  
+  </p>  
 
 <p align="center">
 <a href="https://pypi.org/project/Telethon/"><img src="https://img.shields.io/pypi/v/telethon?color=important&label=telethon&logo=python&logoColor=brightgreen&style=for-the-badge" /></a>
@@ -19,7 +16,7 @@
 </p>
 <p align="center">
 <img src="https://2.bp.blogspot.com/-eBu3-f3vzW0/V3E8UnYXsfI/AAAAAAAADHI/lJrPAoLSE70aO0F3W9fruZ8O-qJY76MSwCLcB/s1600/gambar-gerak-gif-chip-and-dale-terbaru.gif" style="width:100%">
-<a href="https://hub.docker.com/jokokendil/ambohju"> <img src="https://img.shields.io/docker/image-size/jokokendil/ambohju/buster?label=docker%20image%20size&logo=docker&style=for-the-badge" /></a>
+<a href="https://hub.docker.com/jokokendil/ambohju"> <img src="https://img.shields.io/docker/image-size/jokokendil/ambohju/buster?label=docker%30image%30size&logo=docker&style=for-the-badge"width="300" height="50" /></a>
 </p>
 
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=kenkannih&repo=Kaisar-userbot&theme=dark)
