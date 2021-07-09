@@ -48,7 +48,7 @@ Repo Yang Dibuat [KEN KAN](https://t.me/kenkanasw) Dari Berbagai Repo Userbot Gi
 
 ### STRING SESSON
 
-<p align="center"><a href="https://replit.com/@kenkannih/strings-session#main.py"><img src="https://img.shields.io/badge/REPLIT STRINGS-red?style=plastic&logo=replit"width="300" height="50" /></a></p>
+<p align="center"><a href="https://replit.com/@kenkannih/strings-session#main.py"><img src="https://img.shields.io/badge/REPLIT STRINGS-greenlight?style=badge&logo=replit"width="300" height="50" /></a></p>
 
 ## Bagaimana Cara Deploy?
 
