@@ -1,17 +1,17 @@
 <p align="center">
-  <img src="./resources/extras/kaisar.gif" alt="kaisar Logo"width="400" hight="170">
+  <img src="./resources/extras/kaisar.gif" alt="kaisar Logo"width="400" height="170">
 </p>
 <p align="center">
   <a href="https://github.com/kenkannih/Kaisar-userbot/fork">
-    <img src="https://img.shields.io/github/forks/kenkannih/Kaisar-userbot?color=yellow&label=FORK&logo=github&style=plastic"width="100" hight="35"> 
+    <img src="https://img.shields.io/github/forks/kenkannih/Kaisar-userbot?color=yellow&label=FORK&logo=github&style=plastic"width="100"> 
   </a>
   <a href="https://github.com/kenkannih/Kaisar-userbot/stars">
-    <img src="https://img.shields.io/github/stars/kenkannih/Kaisar-userbot?color=green&label=STARS&logo=github&style=plastic"width="100" hight="35">
+    <img src="https://img.shields.io/github/stars/kenkannih/Kaisar-userbot?color=green&label=STARS&logo=github&style=plastic"width="100">
   </a>
 </p>  
 <p align="center">
   <a href="https://github.com/kenkannih/Kaisar-userbot/contributors">
-    <img src="https://img.shields.io/github/contributors/kenkannih/Kaisar-userbot?label=CONTRIBUTORS&style=badge&logo=github"width="200" hight="40">
+    <img src="https://img.shields.io/github/contributors/kenkannih/Kaisar-userbot?label=CONTRIBUTORS&style=badge&logo=github"width="200">
    </a>
   <a href="https://github.com/kenkannih/Kaisar-userbot/issues-pr">
     <img src="https://img.shields.io/github/issues-pr/kenkannih/Kaisar-userbot?label=ISSUES&style=plastic&logo=github"width="200" hight="40">
