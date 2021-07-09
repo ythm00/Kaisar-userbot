@@ -1,10 +1,17 @@
 <p align="center">
   <img src="./resources/extras/kaisar.gif" alt="kaisar Logo"width="400" height="60">
 </p>
-
-[![GitHub contributors](https://img.shields.io/github/contributors/kenkannih/Kaisar-userbot?&style=plastic&logo=github)](https://GitHub.com/kenkannih/Kaisar-userbot/graphs/contributors/)
-[![PR Open](https://img.shields.io/github/issues-pr/kenkannih/Kaisar-userbot?&style=plastic&logo=github)](https://github.com/kenkannih/Kaisar-userbot/pulls)
-[![PR Closed](https://img.shields.io/github/issues-pr-closed/kenkannih/Kaisar-userbot?&style=plastic&logo=github)](https://github.com/kenkannih/Kaisar-userbot/pulls?q=is:closed)
+<p align="center">
+  <a href="https://github.com/kenkannih/Kaisar-userbot/contributors">
+    <img src="https://img.shields.io/github/contributors/kenkannih/Kaisar-userbot?label=CONTRIBUTORS&style=badge&logo=github"width="170" height="40">
+   </a>
+  <a href="https://github.com/kenkannih/Kaisar-userbot/issues-pr">
+    <img src="https://img.shields.io/github/issues-pr/kenkannih/Kaisar-userbot?label=ISSUES&style=plastic&logo=github"width="170" height="40">
+  </a>  
+  <a href="https://github.com/kenkannih/Kaisar-userbot/graphs/commit-activity">
+    <img src="https://img.shields.io/github/kenkannih/Kaisar-userbot/graphs/commit-activity?label=COMMIT&style=plastic&logo=github"width="170" height="40">
+  </a>
+</p>  
 
 <p align="center">
 <a href="https://pypi.org/project/Telethon/"><img src="https://img.shields.io/pypi/v/telethon?color=important&label=telethon&logo=python&logoColor=brightgreen&style=for-the-badge" /></a>
