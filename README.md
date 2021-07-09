@@ -19,10 +19,10 @@
   </p>  
 
 <p align="center">
-<a href="https://pypi.org/project/Telethon/"><img src="https://img.shields.io/badge/TELETHON-v1.22.0-orange?style=for-the-badge&logo=python"width="230" height="50"/></a>
+<a href="https://pypi.org/project/Telethon/"><img src="https://img.shields.io/badge/TELETHON-v1.22.0-orange?style=plastic&logo=python"width="230" height="50"/></a>
 </p>
 <p align="center">
-<a href="PYTHON"><img src="https://img.shields.io/badge/PYTHON-v3.9.5-yellow?style=for-the-badge&logo=python"width="230" height="50"/></a>
+<a href="PYTHON"><img src="https://img.shields.io/badge/PYTHON-v3.9.5-yellow?style=plastic&logo=python"width="230" height="50"/></a>
 </p>
 <p align="center">
 <img src="https://2.bp.blogspot.com/-eBu3-f3vzW0/V3E8UnYXsfI/AAAAAAAADHI/lJrPAoLSE70aO0F3W9fruZ8O-qJY76MSwCLcB/s1600/gambar-gerak-gif-chip-and-dale-terbaru.gif" style="width:100%">
@@ -43,19 +43,18 @@
 Repo Yang Dibuat [KEN KAN](https://t.me/kenkanasw) Dari Berbagai Repo Userbot Github 
 ## BOT API ID DAN HASH
 
-<p align="center"><a href="https://t.me/kenkanrobot"><img src="https://img.shields.io/badge/API ID DAN HASH-blue?style=badge&logo=Telegram"width="300" height="50"/></a></p>
+<p align="center"><a href="https://t.me/kenkanrobot"><img src="https://img.shields.io/badge/API ID DAN HASH-blue?style=plastic&logo=Telegram"width="300" height="50"/></a></p>
 
 
 ### STRING SESSON
 
-<p align="center"><a href="https://replit.com/@kenkannih/strings-session#main.py"><img src="https://img.shields.io/badge/STRINGS-SESSION-blue?badge&logo=style=repl.it"width="300" height="50" /></a></p>
+<p align="center"><a href="https://replit.com/@kenkannih/strings-session#main.py"><img src="https://img.shields.io/badge/STRINGS-SESSION-blue?plastic&logo=style=repl.it"width="300" height="50" /></a></p>
 
 ## Bagaimana Cara Deploy?
 
-```
-* **CARA DEPLOY** 🔧
+**CARA DEPLOY** 🔧
 
-  > Pertama Dapatkan API_KE & API_HASH Di my.telegram.org (Wajib)
+  > Pertama Dapatkan API_ID & API_HASH Di my.telegram.org atau di t.me/Kenkanrobot (Wajib)
 
   > Dapatkan String Session Di Termux (Wajib)
 
@@ -64,12 +63,13 @@ Repo Yang Dibuat [KEN KAN](https://t.me/kenkanasw) Dari Berbagai Repo Userbot Gi
   > Isi Datanya Lalu Tekan Deploy Lagi
 
   > Terakhir Hidupkan Dyno Lalu Check Logs (settings -> view logs) Jika Berhasil Enjoy :)
-```
+
+
 Atau Bisa Gabung Ke Grup Kaisar Userbot -> [TEKAN DISINI](https://t.me/musikkugroup)
-## <p align="center">DEPLOY Kaisar-userbot</p>
+## <p align="center">DEPLOY KAISAR-USERBOT</p>
 
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/kenkannih/Kaisar-userbot"> <img src="https://img.shields.io/badge/BUAT%20DI%20HEROKU-gold?style=flat&logo=heroku" width="300" height="50"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/kenkannih/Kaisar-userbot"> <img src="https://img.shields.io/badge/BUAT%20DI%20HEROKU-gold?style=plastic&logo=heroku" width="300" height="50"/></a></p>
 
 <br>
 </p>
