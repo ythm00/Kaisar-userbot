@@ -25,8 +25,11 @@
 <a href="PYTHON"><img src="https://img.shields.io/badge/PYTHON-v3.9.5-yellow?style=plastic&logo=python"width="230" height="50"/></a>
 </p>
 <p align="center">
+<a href"https://github.com/kenkannih/Kaisar-userbot/LICENSE"><img src="https://img.shields.io/github/license/kenkannih/Kaisar-userbot?style=flat&logo=LICENSE"width="300" high="50"/></a>
+</p>
+<p align="center">
 <img src="https://2.bp.blogspot.com/-eBu3-f3vzW0/V3E8UnYXsfI/AAAAAAAADHI/lJrPAoLSE70aO0F3W9fruZ8O-qJY76MSwCLcB/s1600/gambar-gerak-gif-chip-and-dale-terbaru.gif" style="width:100%">
-<a href="https://hub.docker.com/jokokendil/ambohju/buster"> <img src="https://img.shields.io/docker/image-size/jokokendil/ambohju/buster?label=DOCKERFILE&style=badge&logo=docker"width="300" height="50" /></a>
+<a href="https://hub.docker.com/jokokendil/ambohju/buster"> <img src="https://img.shields.io/docker/image-size/jokokendil/ambohju/buster?label=DOCKERFILE&style=badge&logo=docker"width="300" hight="50" /></a>
 </p>
 
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=kenkannih&repo=Kaisar-userbot&theme=dark)
