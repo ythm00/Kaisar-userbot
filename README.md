@@ -1,28 +1,28 @@
 <p align="center">
-  <img src="./resources/extras/kaisar.gif" alt="kaisar Logo"width="400" height="170">
+  <img src="./resources/extras/kaisar.gif" alt="kaisar Logo"width="400" hight="170">
 </p>
 <p align="center">
   <a href="https://github.com/kenkannih/Kaisar-userbot/fork">
-    <img src="https://img.shields.io/github/forks/kenkannih/Kaisar-userbot?color=yellow&label=FORK&logo=github&style=plastic"width="100" height="35"> 
+    <img src="https://img.shields.io/github/forks/kenkannih/Kaisar-userbot?color=yellow&label=FORK&logo=github&style=plastic"width="100" hight="35"> 
   </a>
   <a href="https://github.com/kenkannih/Kaisar-userbot/stars">
-    <img src="https://img.shields.io/github/stars/kenkannih/Kaisar-userbot?color=green&label=STARS&logo=github&style=plastic"width="100" height="35">
+    <img src="https://img.shields.io/github/stars/kenkannih/Kaisar-userbot?color=green&label=STARS&logo=github&style=plastic"width="100" hight="35">
   </a>
 </p>  
 <p align="center">
   <a href="https://github.com/kenkannih/Kaisar-userbot/contributors">
-    <img src="https://img.shields.io/github/contributors/kenkannih/Kaisar-userbot?label=CONTRIBUTORS&style=badge&logo=github"width="200" height="40">
+    <img src="https://img.shields.io/github/contributors/kenkannih/Kaisar-userbot?label=CONTRIBUTORS&style=badge&logo=github"width="200" hight="40">
    </a>
   <a href="https://github.com/kenkannih/Kaisar-userbot/issues-pr">
-    <img src="https://img.shields.io/github/issues-pr/kenkannih/Kaisar-userbot?label=ISSUES&style=plastic&logo=github"width="200" height="40">
+    <img src="https://img.shields.io/github/issues-pr/kenkannih/Kaisar-userbot?label=ISSUES&style=plastic&logo=github"width="200" hight="40">
   </a>  
   </p>  
 
 <p align="center">
-<a href="https://pypi.org/project/Telethon/"><img src="https://img.shields.io/badge/TELETHON-v1.22.0-orange?style=plastic&logo=python"width="230" height="50"/></a>
+<a href="https://pypi.org/project/Telethon/"><img src="https://img.shields.io/badge/TELETHON-v1.22.0-orange?style=plastic&logo=python&logoColor=white"width="230" hight="50"/></a>
 </p>
 <p align="center">
-<a href="PYTHON"><img src="https://img.shields.io/badge/PYTHON-v3.9.5-yellow?style=plastic&logo=python"width="230" height="50"/></a>
+<a href="PYTHON"><img src="https://img.shields.io/badge/PYTHON-v3.9.5-yellow?style=plastic&logo=python&logoColor=white"width="230" hight="50"/></a>
 </p>
 
 <p align="center">
@@ -49,7 +49,7 @@ Repo Yang Dibuat [KEN KAN](https://t.me/kenkanasw) Dari Berbagai Repo Userbot Gi
 
 ### STRING SESSON
 
-<p align="center"><a href="https://replit.com/@kenkannih/strings-session#main.py"><img src="https://img.shields.io/badge/REPLIT-STRINGS-yellow?style=plastic&logo=replit&logoColor=yellow"width="270" height="40" /></a></p>
+<p align="center"><a href="https://replit.com/@kenkannih/strings-session#main.py"><img src="https://img.shields.io/badge/REPLIT-STRINGS-yellow?style=plastic&logo=replit&logoColor=yellow"width="270" hight="40" /></a></p>
 
 ## Bagaimana Cara Deploy?
 
@@ -70,7 +70,7 @@ Atau Bisa Gabung Ke Grup Kaisar Userbot -> [TEKAN DISINI](https://t.me/musikkugr
 ## <p align="center">DEPLOY KAISAR-USERBOT</p>
 
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/kenkannih/Kaisar-userbot"> <img src="https://img.shields.io/badge/BUAT DI-HEROKU-blue?style=plastic&logo=heroku&logoColor=yellow"width="300" height="50" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/kenkannih/Kaisar-userbot"> <img src="https://img.shields.io/badge/BUAT DI-HEROKU-blue?style=plastic&logo=heroku&logoColor=yellow"width="300" hight="50" /></a></p>
 
 <br>
 </p>
