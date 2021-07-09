@@ -8,8 +8,8 @@
   <a href="https://github.com/kenkannih/Kaisar-userbot/issues-pr">
     <img src="https://img.shields.io/github/issues-pr/kenkannih/Kaisar-userbot?label=ISSUES&style=plastic&logo=github"width="170" height="40">
   </a>  
-  <a href="https://github.com/kenkannih/Kaisar-userbot/graphs/commit-activity">
-    <img src="https://img.shields.io/github/kenkannih/Kaisar-userbot/graphs/commit-activity?label=COMMIT&style=plastic&logo=github"width="170" height="40">
+  <a href="https://github.com/kenkannih/Kaisar-userbot/commit-activity">
+    <img src="https://img.shields.io/github/commit-activity/kenkannih/Kaisar-userbot?label=COMMIT&style=plastic&logo=github"width="170" height="40">
   </a>
 </p>  
 
@@ -24,15 +24,7 @@
 
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=kenkannih&repo=Kaisar-userbot&theme=dark)
 
-<p align="center">
-  <a href="https://github.com/kenkannih/Kaisar-userbot/fork">
-    <img src="https://img.shields.io/github/forks/kenkannih/Kaisar-userbot?label=Fork&style=social">
-    
-  </a>
-  <a href="https://github.com/kenkannih/Kaisar-userbot">
-    <img src="https://img.shields.io/github/stars/kenkannih/Kaisar-userbot?style=social">
-  </a>
-</p>  
+
 
 # KAISAR USERBOT
 ![Kaisar Userbot Logo](https://telegra.ph/file/c4f0f54339957ccba4118.jpg)
