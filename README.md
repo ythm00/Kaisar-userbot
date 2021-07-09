@@ -14,20 +14,20 @@
     <img src="https://img.shields.io/github/contributors/kenkannih/Kaisar-userbot?label=CONTRIBUTORS&style=badge&logo=github"width="200">
    </a>
   <a href="https://github.com/kenkannih/Kaisar-userbot/issues-pr">
-    <img src="https://img.shields.io/github/issues-pr/kenkannih/Kaisar-userbot?label=ISSUES&style=plastic&logo=github"width="200" hight="40">
+    <img src="https://img.shields.io/github/issues-pr/kenkannih/Kaisar-userbot?label=ISSUES&style=plastic&logo=github"width="200">
   </a>  
   </p>  
 
 <p align="center">
-<a href="https://pypi.org/project/Telethon/"><img src="https://img.shields.io/badge/TELETHON-v1.22.0-orange?style=plastic&logo=python&logoColor=white"width="230" hight="50"/></a>
+<a href="https://pypi.org/project/Telethon/"><img src="https://img.shields.io/badge/TELETHON-v1.22.0-orange?style=plastic&logo=python&logoColor=yellow"width="230"/></a>
 </p>
 <p align="center">
-<a href="PYTHON"><img src="https://img.shields.io/badge/PYTHON-v3.9.5-yellow?style=plastic&logo=python&logoColor=white"width="230" hight="50"/></a>
+<a href="PYTHON"><img src="https://img.shields.io/badge/PYTHON-v3.9.5-yellow?style=plastic&logo=python&logoColor=yellow"width="230"/></a>
 </p>
 
 <p align="center">
 <img src="https://2.bp.blogspot.com/-eBu3-f3vzW0/V3E8UnYXsfI/AAAAAAAADHI/lJrPAoLSE70aO0F3W9fruZ8O-qJY76MSwCLcB/s1600/gambar-gerak-gif-chip-and-dale-terbaru.gif" style="width:100%">
-<a href="https://hub.docker.com/jokokendil/ambohju/buster"> <img src="https://img.shields.io/docker/image-size/jokokendil/ambohju/buster?label=DOCKERFILE&style=badge&logo=docker"width="300" hight="50" /></a>
+<a href="https://hub.docker.com/jokokendil/ambohju/buster"> <img src="https://img.shields.io/docker/image-size/jokokendil/ambohju/buster?label=DOCKERFILE&style=badge&logo=docker"width="300" /></a>
 </p>
 
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=kenkannih&repo=Kaisar-userbot&theme=dark)
@@ -44,12 +44,12 @@
 Repo Yang Dibuat [KEN KAN](https://t.me/kenkanasw) Dari Berbagai Repo Userbot Github 
 ## BOT API ID DAN HASH
 
-<p align="center"><a href="https://t.me/kenkanrobot"><img src="https://img.shields.io/badge/API ID-DAN HASH-blue?style=plastic&logo=Telegram"width="300" height="50"/></a></p>
+<p align="center"><a href="https://t.me/kenkanrobot"><img src="https://img.shields.io/badge/API ID-DAN HASH-blue?style=plastic&logo=Telegram"width="300"/></a></p>
 
 
 ### STRING SESSON
 
-<p align="center"><a href="https://replit.com/@kenkannih/strings-session#main.py"><img src="https://img.shields.io/badge/REPLIT-STRINGS-yellow?style=plastic&logo=replit&logoColor=yellow"width="270" hight="40" /></a></p>
+<p align="center"><a href="https://replit.com/@kenkannih/strings-session#main.py"><img src="https://img.shields.io/badge/REPLIT-STRINGS-yellow?style=plastic&logo=replit&logoColor=yellow"width="270" height="40" /></a></p>
 
 ## Bagaimana Cara Deploy?
 
@@ -70,7 +70,7 @@ Atau Bisa Gabung Ke Grup Kaisar Userbot -> [TEKAN DISINI](https://t.me/musikkugr
 ## <p align="center">DEPLOY KAISAR-USERBOT</p>
 
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/kenkannih/Kaisar-userbot"> <img src="https://img.shields.io/badge/BUAT DI-HEROKU-blue?style=plastic&logo=heroku&logoColor=yellow"width="300" hight="50" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/kenkannih/Kaisar-userbot"> <img src="https://img.shields.io/badge/BUAT DI-HEROKU-blue?style=plastic&logo=heroku&logoColor=yellow"width="300" height="50" /></a></p>
 
 <br>
 </p>
