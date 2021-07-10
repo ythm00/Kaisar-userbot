@@ -44,7 +44,7 @@
 
 ![Kaisar Userbot Logo](https://telegra.ph/file/c4f0f54339957ccba4118.jpg)
 
-<h3 align="center">Userbot Yang Digunakan Untuk Bersenang-Senang Di Telegram</h3>
+<h3 align="center">Userbot Yang Digunakan Untuk Bersenang-Senang Di Telegram Dan Berbasis Telethon <img src="logo.svg"width="30" height="30"</a></h3>
 <p align="center">&nbsp;</p>
 
 ### Repo Kaisar Userbot
