@@ -159,11 +159,10 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**🐿**Kaisar-userbot Versi:** \n "
-            f"{verout}"
-            "\n**️🐿**Revisi:**\n "
-            f"{revout}"
-        )
+            f"┏━━━✦❘༻༺❘✦━━━┓\n**  KAISAR-USERBOT**\n┗━━━✦❘༻༺❘✦━━━┛\n"
+            f"┣|•** Versi :** {verout}\n"
+            f"┣|•**Revisi :** {revout}\n"
+            f"┗━━━✦❘༻༺❘✦━━━┛")
     else:
         await event.edit(
             "Sayang sekali anda tidak memiliki git, Anda Menjalankan Bot - 'v1.beta.4'!"
