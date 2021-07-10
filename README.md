@@ -30,10 +30,10 @@
 <a href="PYTHON"><img src="https://img.shields.io/badge/PYTHON-v3.9.4-yellow?style=plastic&logo=python&logoColor=yellow"width="230"/></a>
 </p>
 <p align="center">
-<a href="BOT VESI"><img src="https://img.shields.io/badge/BOT VERSI-v5.0-blue?style=plastic&logo=github&logoColor=yellow"width="200" height="60"/></a>
+<a href="BOT VESI"><img src="https://img.shields.io/badge/BOT VERSI-v5.0-blue?style=plastic&logo=github&logoColor=yellow"width="200" height="40"/></a>
 </p>
 <p align="center">
-<a href="MODULES"><img src="https://img.shields.io/badge/MODULES-146-red?style=plastic&logo=github&logoColor=yellow"width="200" height="60"/></a>
+<a href="MODULES"><img src="https://img.shields.io/badge/MODULES-146-red?style=plastic&logo=github&logoColor=yellow"width="190" height="35"/></a>
 </p>
 <p align="center">
 <img src="https://2.bp.blogspot.com/-eBu3-f3vzW0/V3E8UnYXsfI/AAAAAAAADHI/lJrPAoLSE70aO0F3W9fruZ8O-qJY76MSwCLcB/s1600/gambar-gerak-gif-chip-and-dale-terbaru.gif" style="width:100%">
