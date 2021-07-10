@@ -19,7 +19,7 @@
   </p>  
 
 <p align="center">
-<a href="https://pypi.org/project/Telethon/"><img src="https://img.shields.io/badge/TELETHON-v1.22.0-orange?style=plastic&logo=python&logoColor=yellow"width="230"/></a>
+<a href="https://pypi.org/project/Telethon/"><img src="https://img.shields.io/badge/TELETHON-v1.23.0-orange?style=plastic&logo=python&logoColor=yellow"width="230"/></a>
 </p>
 <p align="center">
 <a href="PYTHON"><img src="https://img.shields.io/badge/PYTHON-v3.9.5-yellow?style=plastic&logo=python&logoColor=yellow"width="230"/></a>
