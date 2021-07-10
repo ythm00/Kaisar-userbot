@@ -106,3 +106,7 @@ TERIMAKASIH UNTUK
 ## Stay Support 🚀
 * [LonamiWebs](https://github.com/LonamiWebs/) and [Telethon](https://github.com/LonamiWebs/Telethon)
 # [![Sparkline](https://stars.medv.io/Lonamiwebs/telethon.svg)](https://stars.medv.io/Lonamiwebs/telethon)
+
+[![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/kenkannih/Kaisar-userbot/blob/Kaisar-userbot/LICENSE)
+
+[![License](https://www.gnu.org/graphics/agplv3-155x51.png)](LICENSE)
