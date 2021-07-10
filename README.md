@@ -11,7 +11,7 @@
 </p>
 <p align="center">
 <a href="https://github.com/kenkannih/Kaisar-userbot/repo-size">
-    <img src="https://img.shields.io/github/repo-size/kenkannih/Kaisar-userbot?color=red&label=REPO%20SIZE&logo=github&logoColor=red&style=plastic"width="170" height="35">
+    <img src="https://img.shields.io/github/repo-size/kenkannih/Kaisar-userbot?color=red&label=REPO%20SIZE&logo=github&logoColor=red&style=plastic"width="200" height="35">
   </a>
 </p>
 <p align="center">
