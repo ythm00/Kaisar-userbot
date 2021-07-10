@@ -218,26 +218,26 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@register(outgoing=True, pattern=r"(?:kaisar|kaisaron)")
+@register(outgoing=True, pattern=r"(?:.kaisar|.kaisaron)")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     await alive.edit("`I'M ALIVE!`")
     await alive.edit("⚡")
     output = (
-        f" **┗┓KAISAR USERBOT┏┛** \n"
+        f"┏━━━━━━༻❁༺━━━━━━┓\n  ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ\n┗━━━━━━༻❁༺━━━━━━┛\n"
         f"\n__**{Kaisar_TEKS_KUSTOM}**__\n"
-        f"**━━━━━━━━━━━━━━━━━━━━**\n"
-        f"**🐿 ᴋᴀɪꜱᴀʀ** \n"
-        f" ➥ `{DEFAULTUSER}` \n"
-        f"**🐿 ᴜsᴇʀɴᴀᴍᴇ** \n"
-        f" ➥ `@{user.username}` \n"
-        f"┏━━━━━━━━━━━━━━━━━━━\n"
-        f"┣[• `Telethon :`Ver {version.__version__} \n"
-        f"┣[• `Python   :`Ver {python_version()} \n"
-        f"┣[• `Bot Ver  :`{BOT_VER} \n"
-        f"┣[• `Modules  :`{len(modules)} Modules\n"
-        f"┗━━━━━━━━━━━━━━━━━━━")
+        f"╭───────✧❁✧────────\n"
+        f"├[•🐿 ᴋᴀɪꜱᴀʀ\n"
+        f"├[•➥ `{DEFAULTUSER}` \n"
+        f"├[•🐿 ᴜsᴇʀɴᴀᴍᴇ\n"
+        f"├[•➥ `@{user.username}` \n"
+        f"├──────────────────\n"
+        f"├[•⚙️ `Telethon  :`Ver {version.__version__} \n"
+        f"├[•🐍 `Python    :`Ver {python_version()} \n"
+        f"├[•👾 `Bot Ver   :`{BOT_VER} \n"
+        f"├[•📂 `Modules :`{len(modules)} \n"
+        f"╰─────────────────")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -263,16 +263,18 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**▬▬▬▬▬▬❙۩🐿۩❙▬▬▬▬▬**\n"
-        f"**♕ KAISAR USERBOT ♕** \n\n"
-        f"❃ **Kaisar**     \n ➥ `{DEFAULTUSER}` \n"
-        f"❃ **Username** \n   ➥ `@{user.username}` \n"
-        f"❃ **Telethon** \n   ➥ `Versi {version.__version__}` \n"
-        f"❃ **Python**   \n   ➥ `Versi {python_version()}` \n"
-        f"❃ **Versi Bot**\n   ➥ `{BOT_VER}` \n"
-        f"❃ **Modul**    \n   ➥ `{len(modules)}` \n\n"
-        f"❃ **Repo Userbot:** [Kaisar-userbot](https://github.com/kenkannih/Kaisar-userbot)\n❃ **Grup Userbot: **[Tekan](t.me/musikkugroup)\n❃ **Pemilik:** [KEN KAN](t.me/kenkanasw)\n"
-        f"**▬▬▬▬▬▬❙۩★۩❙▬▬▬▬▬▬**")
+        f"╔═══════ ≪ °❈° ≫ ═══════╗\n**          🌟KAISAR-USERBOT🌟**\n╚═══════ ≪ °❈° ≫ ═══════╝\n"
+        f"♚ **Kaisar**\n➢ `{DEFAULTUSER}` \n"
+        f"♚ **Username**\n➢ `@{user.username}` \n"
+        f"♚ **Telethon**\n➢ `Versi {version.__version__}` \n"
+        f"♚ **Python**\n➢ `Versi {python_version()}` \n"
+        f"♚ **Versi Bot**\n➢ `{BOT_VER}` \n"
+        f"♚ **Modul**\n➢ `{len(modules)}` \n"
+        f"╔═══════ ≪ °❈° ≫ ═══════╗
+        f"┣|•🗡**Repo Userbot :** [KAISAR-USERBOT](https://github.com/kenkannih/Kaisar-userbot)\n"
+        f"┣|•💬**Grup Userbot :**[GROUP](t.me/musikkugroup)\n"
+        f"┣|•👤**Pemilik :** [KEN KAN](t.me/kenkanasw)\n"
+        f"╚═══════ ≪ °❈° ≫ ═══════╝")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -300,15 +302,15 @@ async def amireallyalive(alive):
     await alive.edit("`I'M ALIVE!`")
     await alive.edit("⚡")
     output = (
-        f"**🔆 KAISAR USERBOT 🔆** \n\n"
+        f"╔═══════ ≪ °❈° ≫ ═══════╗\n**          🌟KAISAR-USERBOT🌟**\n╚═══════ ≪ °❈° ≫ ═══════╝\n"
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
-        f"┣|• `KAISAR   :`{DEFAULTUSER}\n"
-        f"┣|• `Username   :`@{user.username}\n"
-        f"┣|• `Telethon   :`Ver {version.__version__}\n"
-        f"┣|• `Python     :`Ver {python_version()}\n"
-        f"┣|• `Branch:`{UPSTREAM_REPO_BRANCH}\n"
-        f"┣|• `Bot Ver    :`{BOT_VER}\n"
-        f"┣|• `Modules    :`{len(modules)} Modules\n"
+        f"┣|• 🐿`KAISAR   :`{DEFAULTUSER}\n"
+        f"┣|• 🗒`Username   :`@{user.username}\n"
+        f"┣|• ◢◤◢◤◢◤◢◤◢◤◢◤◢◤ ◢◤ ◢◤\n"
+        f"┣|• ⚙️ `Telethon  :`Ver {version.__version__} \n"
+        f"┣|• 🐍 `Python    :`Ver {python_version()} \n"
+        f"┣|• 👾 `Bot Ver   :`{BOT_VER} \n"
+        f"┣|• 📂 `Modules :`{len(modules)} \n"
         f"┗━━━━━━━━━━━━━━━━━━━ \n\n"
         f"[Repo](https://github.com/kenkannih/Kaisar-userbot) | [Grup Support](t.me/musikkugroup) | [Owner](t.me/kenkanasw)")
     if ALIVE_LOGO:
@@ -363,7 +365,7 @@ CMD_HELP.update({"botver": "`.botver`\
 CMD_HELP.update({"pip": "`.pip <module(s)>`\
     \nPenjelasan: Melakukan pencarian modul pip."})
 
-CMD_HELP.update({"alive": "`.alive` | `.on`\
+CMD_HELP.update({"alive": "`.alive` | `.on` | `.kaisar` | `.kaisaron`\
     \nPenjelasan: Ketik .alive/.on untuk melihat apakah bot Anda berfungsi atau tidak.\
     \n\n`.aliveu <text>`\
     \nPenjelasan: Mengubah 'pengguna' menjadi teks yang Anda inginkan.\
