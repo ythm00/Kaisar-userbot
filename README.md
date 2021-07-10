@@ -94,8 +94,8 @@ Atau Bisa Gabung Ke Grup Kaisar Userbot -> <a href="https://t.me/musikkugroup"><
 ## Credit
 TERIMAKASIH UNTUK
 
-YANG PERTAMA SAYA SENDIRI <a href="https://github.com/kenkannih/kenkannih"><img src="https://img.shields.io/badge/KEN-KAN-blue?style=plastic&logo=github&logoColor=yellow"/></a>
 
+*   YANG PERTAMA SAYA SENDIRI <a href="https://github.com/kenkannih/kenkannih"><img src="https://img.shields.io/badge/KEN-KAN-blue?style=plastic&logo=github&logoColor=yellow"/></a>
 *   [Vicky](https://github.com/vckyou/Geez-UserBot) - Geez-UserBot
 *   [Rama](https://github.com/ramadhani892/RAM-UBOT) - RAM-UBOT
 *   [Alvin](https://github.com/Zora24/Kaisar-userbot) - Lord-Userbot
