@@ -44,8 +44,11 @@
 
 ![Kaisar Userbot Logo](https://telegra.ph/file/c4f0f54339957ccba4118.jpg)
 
-<h3 align="center">Userbot Yang Digunakan Untuk Bersenang-Senang Di Telegram Dan Berbasis Telethon <img src="logo.svg"width="30" height="30"</a></h3>
-<p align="center">&nbsp;</p>
+<p align="center"> ━━━━━━━━━━༻❁༺━━━━━━━━━━ </p>
+
+<h3>USERBOT YANG DIGUNAKAN UNTUK BERSENANG - SENANG DI TELEGRAM DAN BERBASIS TELETHON <img src="logo.svg"width="20" height="20"</a></h3>
+
+<p align="center"> ━━━━━━━━━━༻❁༺━━━━━━━━━━ </p>
 
 ### Repo Kaisar Userbot
 Repo Yang Dibuat [KEN KAN](https://t.me/kenkanasw) Dari Berbagai Repo Userbot Github 
