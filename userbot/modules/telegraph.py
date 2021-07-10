@@ -50,7 +50,7 @@ async def telegraphs(graph):
                     ms_two = (end - start).seconds
                     os.remove(downloaded_file_name)
                     await graph.edit(
-                        "Berhasil Mengunggah Ke [Telegraph](https://telegra.ph{}).".format(
+                        "Berhasil Mengunggah Ke\n┍━━☽【❖】☾━━┑\n     [ᴛᴇʟᴇɢʀᴀᴘʜ](https://telegra.ph{})\n┕━━☽【❖】☾━━┙".format(
                             media_urls[0], (ms + ms_two)
                         ),
                         link_preview=True,
