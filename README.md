@@ -104,10 +104,9 @@ TERIMAKASIH UNTUK
 *   DAN BANYAK LAGI 
 
 ## Stay Support 🚀
-* [LonamiWebs](https://github.com/LonamiWebs/) and [Telethon](https://github.com/LonamiWebs/Telethon)
-# [![Sparkline](https://stars.medv.io/Lonamiwebs/telethon.svg)](https://stars.medv.io/Lonamiwebs/telethon)
 
-<p align="center"><a href="https://github.com/kenkannih/Kaisar-userbot/blob/Kaisar-userbot/LICENSE"><img src="https://img.shields.io/badge/LICENSE-AGPL-blue?style=plastic&logo=github&logoColor=green"widht="150" height="50" /></a></p>
+[LonamiWebs](https://github.com/LonamiWebs/) and [Telethon](https://github.com/LonamiWebs/Telethon)
+[![Sparkline](https://stars.medv.io/Lonamiwebs/telethon.svg)](https://stars.medv.io/Lonamiwebs/telethon)
 
 
 [![License](https://www.gnu.org/graphics/agplv3-155x51.png)](LICENSE)
