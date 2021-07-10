@@ -269,7 +269,7 @@ async def amireallyalive(alive):
         f"♚ **Python**\n➢ `Versi {python_version()}` \n"
         f"♚ **Versi Bot**\n➢ `{BOT_VER}` \n"
         f"♚ **Modul**\n➢ `{len(modules)}` \n"
-        f"╔═══════ ≪ °❈° ≫ ═══════╗
+        f"╔═══════ ≪ °❈° ≫ ═══════╗\n"
         f"┣|•🗡**Repo Userbot :** [KAISAR-USERBOT](https://github.com/kenkannih/Kaisar-userbot)\n"
         f"┣|•💬**Grup Userbot :**[GROUP](t.me/musikkugroup)\n"
         f"┣|•👤**Pemilik :** [KEN KAN](t.me/kenkanasw)\n"
