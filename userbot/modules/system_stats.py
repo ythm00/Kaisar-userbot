@@ -232,10 +232,10 @@ async def amireallyalive(alive):
         f"├[•🐿 ᴜsᴇʀɴᴀᴍᴇ\n"
         f"├[•➥ `@{user.username}` \n"
         f"├──────────────────\n"
-        f"├[**⚙️ `Telethon  :** `Ver {version.__version__} \n"
-        f"├[•**🐍 `Python    :** `Ver {python_version()} \n"
-        f"├[•**👾 `Bot Ver   :** `{BOT_VER} \n"
-        f"├[•**📂 `Modules :** `{len(modules)} \n"
+        f"├[•⚙️ **Telethon  :** `Ver {version.__version__}`\n"
+        f"├[•🐍 **Python    :** `Ver {python_version()}`\n"
+        f"├[•👾 **Bot Ver   :** `{BOT_VER}`\n"
+        f"├[•📂 **Modules :** `{len(modules)}`\n"
         f"╰─────────────────")
     if ALIVE_LOGO:
         try:
@@ -303,13 +303,13 @@ async def amireallyalive(alive):
     output = (
         f"╔══════ ≪ °❈° ≫ ══════╗\n**      🌟KAISAR-USERBOT🌟**\n╚══════ ≪ °❈° ≫ ══════╝\n"
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
-        f"┣|• **🐿`KAISAR    :** `{DEFAULTUSER}\n"
-        f"┣|• **🗒`Username  :** `@{user.username}\n"
+        f"┣|•🐿 **KAISAR  :** `{DEFAULTUSER}\n`"
+        f"┣|•🗒 **Username :** `@{user.username}`\n"
         f"┣|• ◢◤◢◤◢◤◢◤◢◤◢◤◢◤ ◢◤ \n"
-        f"┣|•** ⚙️ `Telethon  :** `Ver {version.__version__} \n"
-        f"┣|• **🐍 `Python     :** `Ver {python_version()} \n"
-        f"┣|• **👾 `Bot Ver    :** `{BOT_VER} \n"
-        f"┣|• **📂 `Modules :** `{len(modules)} \n"
+        f"┣|•⚙️ **Telethon  :** `Ver {version.__version__}`\n"
+        f"┣|•🐍 **Python    :** `Ver {python_version()}`\n"
+        f"┣|•👾 **Bot Ver   :** `{BOT_VER}`\n"
+        f"┣|•📂 **Modules :** `{len(modules)}`\n"
         f"┗━━━━━━━━━━━━━━━━━━━ \n\n"
         f"[Repo](https://github.com/kenkannih/Kaisar-userbot) | [Grup Support](t.me/musikkugroup) | [Owner](t.me/kenkanasw)")
     if ALIVE_LOGO:
