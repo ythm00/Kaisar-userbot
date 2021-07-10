@@ -98,7 +98,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
         if BOTLOG:
             await event.client.send_message(
                 BOTLOG_CHATID, "#BOT \n"
-                "`Kaisar-userbot Berhasil Di Update`")
+                "`┏━━━━━━༻❁༺━━━━━━┓\n ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ\n  Berhasil Di Update!\n┗━━━━━━༻❁༺━━━━━━┛`")
 
     else:
         await event.edit('`[HEROKU]:'
@@ -115,9 +115,9 @@ async def update(event, repo, ups_rem, ac_br):
     except GitCommandError:
         repo.git.reset("--hard", "FETCH_HEAD")
     await update_requirements()
-    await event.edit('┏━━━━━━༻❁༺━━━━━━┓\n ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ\n  `Berhasil Di Update!`\n┗━━━━━━༻❁༺━━━━━━┛')
+    await event.edit('`┏━━━━━━༻❁༺━━━━━━┓\n ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ\n     Berhasil Di Update!\n┗━━━━━━༻❁༺━━━━━━┛`')
     await asyncio.sleep(1)
-    await event.edit('**✥ Kaisar-userbot** `Di Restart....`')
+    await event.edit('`┏━━━━━━༻❁༺━━━━━━┓\n ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ\n         Di Restart............\n┗━━━━━━༻❁༺━━━━━━┛`')
     await asyncio.sleep(1)
     await event.edit('`Mohon Menunggu Beberapa Detik Kaisar ツ`')
     await asyncio.sleep(10)
@@ -187,8 +187,7 @@ async def upstream(event):
     changelog = await gen_chlog(repo, f'HEAD..upstream/{ac_br}')
 
     if changelog == '' and force_update is False:
-        await event.edit(
-            f'\n**✣ Kaisar-userbot Sudah Versi Terbaru**\n')
+        await event.edit(`┏━━━━━━༻❁༺━━━━━━┓\n ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ\n  **Sudah Versi Terbaru**\n┗━━━━━━༻❁༺━━━━━━┛`)
         await asyncio.sleep(15)
         await event.delete()
         return repo.__del__()
