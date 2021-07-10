@@ -56,7 +56,7 @@
 <p align="center"> ━━━━━━━━━━༻❁༺━━━━━━━━━━ </p>
 
 ### Repo Kaisar Userbot
-Repo Yang Dibuat [KEN KAN](https://t.me/kenkanasw) Dari Berbagai Repo Userbot Github 
+Repo Yang Dibuat <a href="https://t.me/kenkanasw"><img src="https://img.shields.io/badge/KEN-KAN-blue?style=plastic&logo=Telegram&logoColor=yellow"/></a> Dari Berbagai Repo Userbot Github 
 ## BOT API ID DAN HASH
 
 <p align="center"><a href="https://t.me/kenkanrobot"><img src="https://img.shields.io/badge/API ID-DAN HASH-blue?style=plastic&logo=Telegram"width="300"/></a></p>
@@ -81,7 +81,7 @@ Repo Yang Dibuat [KEN KAN](https://t.me/kenkanasw) Dari Berbagai Repo Userbot Gi
   > Terakhir Hidupkan Dyno Lalu Check Logs (settings -> view logs) Jika Berhasil Enjoy :)
 
 
-Atau Bisa Gabung Ke Grup Kaisar Userbot -> [TEKAN DISINI](https://t.me/musikkugroup)
+Atau Bisa Gabung Ke Grup Kaisar Userbot -> <a href="https://t.me/musikkugroup"><img src="https://img.shields.io/badge/SUPPORT-GROUP-yellow?style=plastic&logo=Telegram&logoColor=yellow"/></a>
 ## <p align="center">DEPLOY KAISAR-USERBOT</p>
 
 
