@@ -271,7 +271,7 @@ async def amireallyalive(alive):
         f"♚ **Modul**\n➢ `{len(modules)}` \n"
         f"╔══════ ≪ °❈° ≫ ══════╗\n"
         f"┣|•🗡**Repo Userbot :** [KAISAR-USERBOT](https://github.com/kenkannih/Kaisar-userbot)\n"
-        f"┣|•💬**Grup Userbot :**[GROUP](t.me/musikkugroup)\n"
+        f"┣|•💬**Grup Userbot :** [GROUP](t.me/musikkugroup)\n"
         f"┣|•👤**Pemilik :** [KEN KAN](t.me/kenkanasw)\n"
         f"╚══════ ≪ °❈° ≫ ══════╝")
     if ALIVE_LOGO:
