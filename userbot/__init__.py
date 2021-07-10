@@ -323,7 +323,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```『Kaisar-Userbot Telah Aktif』```")
+    await bot.send_message(BOTLOG_CHATID, "```┏━━━━━━༻❁༺━━━━━━┓\n ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ\n┗━━━━━━༻❁༺━━━━━━┛\nTELAH AKTIF YA KAK\nSilahkan ketik .ping Untuk pengetesan.```")
     return
 
 with bot:
