@@ -8,7 +8,12 @@
   <a href="https://github.com/kenkannih/Kaisar-userbot/stars">
     <img src="https://img.shields.io/github/stars/kenkannih/Kaisar-userbot?color=green&label=STARS&logo=github&style=plastic"width="100" height="35">
   </a>
-</p>  
+</p>
+<p align="center">
+<a href="https://github.com/kenkannih/Kaisar-userbot/repo-size">
+    <img src="https://img.shields.io/github/repo-size/kenkannih/Kaisar-userbot?color=red&label=REPO-SIZE&logo=github&style=plastic"width="170" height="35">
+  </a>
+</p>
 <p align="center">
   <a href="https://github.com/kenkannih/Kaisar-userbot/contributors">
     <img src="https://img.shields.io/github/contributors/kenkannih/Kaisar-userbot?label=CONTRIBUTORS&style=badge&logo=github"width="200">
