@@ -72,7 +72,7 @@ Repo Yang Dibuat [KEN KAN](https://t.me/kenkanasw) Dari Berbagai Repo Userbot Gi
 
   > Pertama Dapatkan API_ID & API_HASH Di my.telegram.org atau di t.me/Kenkanrobot (Wajib)
 
-  > Dapatkan String Session Di Termux (Wajib)
+  > Dapatkan String Session Di Replit pilih t bukan p (Wajib)
 
   > Next Tekan Tombol Deploy Dibawah
 
