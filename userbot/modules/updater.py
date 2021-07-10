@@ -115,7 +115,7 @@ async def update(event, repo, ups_rem, ac_br):
     except GitCommandError:
         repo.git.reset("--hard", "FETCH_HEAD")
     await update_requirements()
-    await event.edit('**✥ Kaisar-userbot** `Berhasil Di Update!`')
+    await event.edit('┏━━━━━━༻❁༺━━━━━━┓\n ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ\n  `Berhasil Di Update!`\n┗━━━━━━༻❁༺━━━━━━┛')
     await asyncio.sleep(1)
     await event.edit('**✥ Kaisar-userbot** `Di Restart....`')
     await asyncio.sleep(1)
