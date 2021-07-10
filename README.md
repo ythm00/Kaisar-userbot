@@ -25,7 +25,7 @@
 <a href="PYTHON"><img src="https://img.shields.io/badge/PYTHON-v3.9.4-yellow?style=plastic&logo=python&logoColor=yellow"width="230"/></a>
 </p>
 <p align="center">
-<a href="BOT VESI"><img src="https://img.shields.io/badge/BOT VERSI-5.0-blue?style=plastic&logo=github&logoColor=yellow"width="200" height="60"/></a>
+<a href="BOT VESI"><img src="https://img.shields.io/badge/BOT VERSI-v5.0-blue?style=plastic&logo=github&logoColor=yellow"width="200" height="60"/></a>
 </p>
 <p align="center">
 <a href="MODULES"><img src="https://img.shields.io/badge/MODULES-146-red?style=plastic&logo=github&logoColor=yellow"width="200" height="60"/></a>
