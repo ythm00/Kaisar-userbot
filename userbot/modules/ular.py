@@ -325,6 +325,6 @@ CMD_HELP.update({
     \nPenjelasan: jempol\
     \n\n`.awkwok`\
     \nPenjelasan: ketawa lari.\
-    \n\n`.ular` ; `.babi` ; `.foff` ; `.foto` ; `.ajg`\
+    \n\n`.ular` ; `.babi` ; `.foff` ; `.ajg`\
     \nPenjelasan: liat sendiri."
 })
