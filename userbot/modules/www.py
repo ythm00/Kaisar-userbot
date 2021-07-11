@@ -150,7 +150,18 @@ async def speedtst(spd):
     test.results.share()
     result = test.results.dict()
 
-    await spd.edit("**Hasil Tes:\n**"
+    await spd.edit(f"┏━━━━━━━༻❁༺━━━━━━━┓"
+                     f"┣ ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ"
+                     f"┣━━━━━━━༻❁༺━━━━━━━┛"
+                     f"┣ **Hasil Tes:\n**"
+                     f"┣ `{result['timestamp']}` \n"
+                     f"┣━━━━━━━━━━━━━━━━━━━━\n"
+                     f"┣ 📥**Download :** `{speed_convert(result['download'])}` \n"
+                     f"┣ 📤**Upload :** `{speed_convert(result['upload'])}` \n"
+                     f"┣ 📡**Ping :** `{result['ping']}` \n"
+                     f"┣ 🌍** ISP :** `{result['client']['isp']}` \n"
+                     f"┗━━━━━━━༻❁༺━━━━━━━┛"
+**Hasil Tes:\n**"
                    "❃ **Dimulai Pada:** "
                    f"`{result['timestamp']}` \n"
                    f" **━━━━━━━━━━━━━━━━━**\n\n"
