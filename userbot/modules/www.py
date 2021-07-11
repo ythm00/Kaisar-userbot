@@ -1,8 +1,3 @@
-# Copyright (C) 2019 The Raphielscape Company LLC.
-#
-# Licensed under the Raphielscape Public License, Version 1.d (the "License");
-# you may not use this file except in compliance with the License.
-#
 """ Userbot module containing commands related to the \
     Information Superhighway (yes, Internet). """
 
@@ -115,7 +110,7 @@ async def pingme(pong):
                     f"`%sms` \n"
                     f":۞: ＵＰＴＩＭＥ:"
                     f"`{uptime}` \n"
-                    f"**【❖】My кคเรคг\n :** `{ALIVE_NAME}`" % (duration))
+                    f"**❖ My кคเรคг\n :** `{ALIVE_NAME}`" % (duration))
 
 
 @register(outgoing=True, pattern="^.sinyal$")
@@ -132,12 +127,13 @@ async def pingme(pong):
     await pong.edit("**100% ██████████**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"- 𝐋 𝐎 𝐑 𝐃 -\n"
+    await pong.edit(f"┏━━━━━━༻❁༺━━━━━━┓\n ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ\n┗━━━━━━༻❁༺━━━━━━┛\n"
                     f"**• ꜱɪɴʏᴀʟ  :** "
                     f"`%sms` \n"
                     f"**• ᴏɴʟɪɴᴇ  :** "
                     f"`{uptime}` \n"
-                    f"**• ᴏᴡɴᴇʀ  :** `{ALIVE_NAME}`" % (duration))
+                    f"**• ᴏᴡɴᴇʀ  :** `{ALIVE_NAME}`\n"
+                    f"┗━━━━━━༻❁༺━━━━━━┛" % (duration))
 
 
 @register(outgoing=True, pattern="^.speed$")
