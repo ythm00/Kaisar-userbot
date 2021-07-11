@@ -1,4 +1,4 @@
-CMD_HELP.update({✘ Commands Available -
+CMD_HELP.update({"""✘ Commands Available -
 
 • `{i}startvc`
     Start Group Call in a group.
@@ -24,7 +24,7 @@ CMD_HELP.update({✘ Commands Available -
    `/play youtube link`
    `/current`
    `/skip`
-   `/exitVc`
+   `/exitVc`"""
 }}
 
 from os import remove
