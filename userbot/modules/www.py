@@ -153,28 +153,15 @@ async def speedtst(spd):
     await spd.edit(f"┏━━━━━━━༻❁༺━━━━━━━┓"
                      f"┣ ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ"
                      f"┣━━━━━━━༻❁༺━━━━━━━┛"
-                     f"┣ **Hasil Tes:\n**"
-                     f"┣ `{result['timestamp']}` \n"
+                     f"┣ **HASIL TES :\n**"
+                     f"┣ 👤**Dimulai Pada : **\n"
+                     f"┣`{result['timestamp']}` \n"
                      f"┣━━━━━━━━━━━━━━━━━━━━\n"
                      f"┣ 📥**Download :** `{speed_convert(result['download'])}` \n"
                      f"┣ 📤**Upload :** `{speed_convert(result['upload'])}` \n"
                      f"┣ 📡**Ping :** `{result['ping']}` \n"
-                     f"┣ 🌍** ISP :** `{result['client']['isp']}` \n"
-                     f"┗━━━━━━━༻❁༺━━━━━━━┛"
-**Hasil Tes:\n**"
-                   "❃ **Dimulai Pada:** "
-                   f"`{result['timestamp']}` \n"
-                   f" **━━━━━━━━━━━━━━━━━**\n\n"
-                   "❃ **Download:** "
-                   f"`{speed_convert(result['download'])}` \n"
-                   "❃ **Upload:** "
-                   f"`{speed_convert(result['upload'])}` \n"
-                   "❃ **Ping:** "
-                   f"`{result['ping']}` \n"
-                   "❃ **ISP:** "
-                   f"`{result['client']['isp']}` \n"
-                   "❃ **BOT:** `Kaisar Userbot`")
-
+                     f"┣ 🌍**ISP :** `{result['client']['isp']}` \n"
+                     f"┗━━━━━━━༻❁༺━━━━━━━┛")
 
 def speed_convert(size):
     """
