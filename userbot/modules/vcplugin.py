@@ -1,4 +1,4 @@
-CMD_HELP.update({"""✘ Commands Available -
+CMD_HELP.update({"""vcbot
 
 • `{i}startvc`
     Start Group Call in a group.
@@ -25,7 +25,7 @@ CMD_HELP.update({"""✘ Commands Available -
    `/current`
    `/skip`
    `/exitVc`"""
-}}
+})
 
 from os import remove
 
