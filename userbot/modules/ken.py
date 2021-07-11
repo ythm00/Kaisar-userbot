@@ -59,7 +59,7 @@ async def koc(e):
       sleep(1)
       await e.edit("BEBAN KELUARGA")
 
-@register(outgoing=True, pattern='^.ular1(?: |$)(.*)')
+@register(outgoing=True, pattern='^.pyt(?: |$)(.*)')
 async def typewriter(typew):
      typew.pattern_match.group(1)
      await typew.edit("░░░░░░░░░░░░░░░░░░█░")
@@ -142,11 +142,11 @@ async def typewriter(typew):
   
 
 CMD_HELP.update({
-    "Ken Kan":
-      ".bang\n
-        Penjelasan : ini berisi kata kata mutiara yang sangat dalam\n
-       .tob\n
-       Penjelasan : Perintah petuah.\n
-      .ular1\n
-      Penjelasan : animasi ular"
+    "KEN KAN":
+    "`.bang`\
+\nUsage: ini berisi kata kata mutiara yang sangat dalam\
+\n\n`.tob`\
+\nUsage: Perintah petuah.\
+\n\n`.pyt`\
+\nUsage: animasi ular."
 })
