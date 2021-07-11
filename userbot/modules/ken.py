@@ -61,8 +61,7 @@ async def koc(e):
 
 @register(outgoing=True, pattern='^.ular1(?: |$)(.*)')
 async def typewriter(typew):
-  typew.pattern_match.group(1)
-     await typew.edit("░░░░░░░░░░░░░░░░░░░░")
+     typew.pattern_match.group(1)
      await typew.edit("░░░░░░░░░░░░░░░░░░█░")
      await typew.edit("░░░█░░░░░░░░░░░░░██░")
      await typew.edit("░░██░░░░░░░░░░░████░")
