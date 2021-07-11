@@ -108,9 +108,11 @@ async def pingme(pong):
     await pong.edit(f"┏━━━━━━༻❁༺━━━━━━┓\n ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ\n┗━━━━━━༻❁༺━━━━━━┛\n"
                     f":۞:ＰＩＮＧ:"
                     f"`%sms` \n"
-                    f":۞: ＵＰＴＩＭＥ:"
+                    f":۞:ＵＰＴＩＭＥ:"
                     f"`{uptime}` \n"
-                    f"** ❖ My кคเรคг :** `{ALIVE_NAME}`" % (duration))
+                    f"━━━━━━━━━━━━━━━━━━━\n"
+                    f"** ❖  My кคเรคг :** `{ALIVE_NAME}`\n"
+                    f"┗━━━━━━༻❁༺━━━━━━┛" % (duration))
 
 
 @register(outgoing=True, pattern="^.sinyal$")
