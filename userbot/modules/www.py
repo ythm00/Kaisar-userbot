@@ -191,7 +191,7 @@ async def pingme(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 9000
     await pong.edit(f"┏━━━━━━༻❁༺━━━━━━┓\n ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ\n┗━━━━━━༻❁༺━━━━━━┛\n"
-                                 f"✘ ＰＩＮＧ!\n`%sms`" % (duration))
+                                 f"✘ ＰＩＮＧ! : `%sms`" % (duration))
 
 CMD_HELP.update(
     {"ping": "`.ping` ; `.lping` ; `.xping` ; `.fping`\
