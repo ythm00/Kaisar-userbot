@@ -173,7 +173,7 @@ async def _(e):
         return await eod(xx, f"`{str(ex)}`", time=5)
 
 CMD_HELP.update({
-       "vcbot
+  "vcbot"
 
  "{i}startvc"
     Start Group Call in a group.
