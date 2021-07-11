@@ -173,31 +173,10 @@ async def _(e):
         return await eod(xx, f"`{str(ex)}`", time=5)
 
 CMD_HELP.update({
-  "vcbot"
-
- "{i}startvc"
-    Start Group Call in a group.
-
- "{i}stopvc"
-    Stop Group Call in a group.
-
- "{i}playvc"
-    Start Voice Chat Bot to receive Commands.
-
- "{i}vcinvite"
-    Invite all members of group in Group Call.
-    (You must be joined)
-
- "{i}vcaccess <id/username/reply to msg>"
-    Give access of Voice Chat Bot.
-
- "{i}rmvcaccess <id/username/reply to msg>"
-    Remove access of Voice Chat Bot.
-
- "**Voice Chat - Bot Commands**"
-  " `/play ytsearch : song-name`"
-  "`/play youtube link`"
-  "`/current`"
-  "`/skip`"
-  "`/exitVc`"
+ "**Voice Chat - Bot Commands**\n
+  `/play ytsearch : song-name`\n
+  `/play youtube link`\n
+  `/current`\n
+  `/skip`\n
+  `/exitVc`\n"
 })
