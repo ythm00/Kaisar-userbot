@@ -196,8 +196,33 @@ async def pingme(pong):
     await pong.edit(f"┏━━━━━━༻❁༺━━━━━━┓\n ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ\n┗━━━━━━༻❁༺━━━━━━┛\n"
                                  f"✘ ＰＩＮＧ! : `%sms`" % (duration))
 
+@register(outgoing=True, pattern="^.kping$")
+async def pingme(pong):
+    """ For .ping command, ping the userbot from any chat.  """
+    uptime = await get_readable_time((time.time() - StartTime))
+    start = datetime.now()
+    await pong.edit("░░░░░░░░░░░\n░░░░░░░░░░░\n░░░░░░░░░░░\n░░░░░░░░░░░\n░░░░░░░░░░░\n")
+    await pong.edit("░░░░░░░░░░░\n░░░░░░░░░░░\n░░░░░░░░░░░\n░░░░░░░░░░░\n█▓░░░░░░░░░\n")
+    await pong.edit("░░░░░░░░░░░\n░░░░░░░░░░░\n░░░░░░░░░░░\n█▓░░░░░░░░░\n█▓█▓░░░░░░░\n")
+    await pong.edit("░░░░░░░░░░░\n░░░░░░░░░░░\n█▓░░░░░░░░░\n█▓█▓░░░░░░░\n█▓█▓█▓░░░░░\n")
+    await pong.edit("░░░░░░░░░░░\n█▓░░░░░░░░░\n█▓█▓░░░░░░░\n█▓█▓█▓░░░░░\n█▓█▓█▓█▓░░░\n")
+    await pong.edit("█▓░░░░░░░░░\n█▓█▓░░░░░░░\n█▓█▓█▓░░░░░\n█▓█▓█▓█▓░░░\n█▓█▓█▓█▓█▓░\n")
+    await pong.edit("**[♦] PONG!**")
+    end = datetime.now()
+    duration = (end - start).microseconds / 1000
+    await pong.edit(f"┏━━━━━━༻❁༺━━━━━━┓\n ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ\n┗━━━━━━༻❁༺━━━━━━┛\n"
+                    f"[♦] ＰＩＮＧ:"
+                    f" `%sms` \n"
+                    f"[♦] ＵＰＴＩＭＥ:"
+                    f" `{uptime}` \n"
+                    f"━━━━━━━━━━━━━━━━━━━\n"
+                    f"**[♦] My KAISAR  :** `{ALIVE_NAME}`\n"
+                    f"┗━━━━━━༻❁༺━━━━━━┛" % (duration))
+
+
+
 CMD_HELP.update(
-    {"ping": "`.ping` ; `.lping` ; `.xping` ; `.fping`\
+    {"ping": "`.ping` ; `.lping` ; `.xping` ; `.fping` : `.kping`\
     \nPenjelasan: Untuk menunjukkan ping bot.\
     \n\n`.speed`\
     \nPenjelasan: Untuk menunjukkan kecepatan.\
