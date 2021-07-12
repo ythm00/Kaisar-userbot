@@ -408,7 +408,7 @@ with bot:
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.article(
                     "Harap Gunakan .help Untuk Perintah",
-                    text=text="{}\n┣ 🧩 **MODUL TERSEDIA :** `{}`\n┣ 🧰 **DAFTAR MODUL :** \n┗━━━━━━༻❁༺━━━━━━┛\n".format(
+                    text="{}\n┣ 🧩 **MODUL TERSEDIA :** `{}`\n┣ 🧰 **DAFTAR MODUL :** \n┗━━━━━━༻❁༺━━━━━━┛\n".format(
                         f"┏━━━━━━༻❁༺━━━━━━┓\n [ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ](kaisarlogo)\n┗━━━━━━༻❁༺━━━━━━┛"
                     ),
                     buttons=buttons,
