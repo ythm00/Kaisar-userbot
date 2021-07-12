@@ -41,6 +41,8 @@ async def koc(e):
         await e.edit("ORTU")
         sleep(1)
         await e.edit("KAMU")
+        sleep(4)
+        await e.delete()
         
 @register(outgoing=True, pattern="^.tob$")
 async def koc(e):
@@ -58,6 +60,8 @@ async def koc(e):
       await e.edit("DAN MENJADI")
       sleep(1)
       await e.edit("BEBAN KELUARGA")
+      sleep(4)
+      await e.delete()
 
 @register(outgoing=True, pattern='^.pyt(?: |$)(.*)')
 async def typewriter(typew):
@@ -347,7 +351,8 @@ async def typewriter(typew):
      "░░░░░░█▓▓█░░░░░░░░░░\n"
      "░░░░░░░█▓█░░░░░░░░░░\n"
      "░░░░░░░░▓░░░░░░░░░░░\n")
- 
+     sleep(6)
+     await.typew()
   
 
 CMD_HELP.update({
