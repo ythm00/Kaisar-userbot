@@ -96,7 +96,8 @@ async def _(event):
             await asyncio.sleep(animation_interval)
 
             await event.edit(animation_chars[i % 103])
-
+            await sleep(10)
+            await event.delete()
 
 @bot.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
 async def _(event):
@@ -180,9 +181,13 @@ async def _(event):
             await asyncio.sleep(animation_interval)
 
             await event.edit(animation_chars[i % 13])
-# KEN KAN Imut
-# KEN KAN Gans
-# Kaisar
+            await sleep(5)
+            await event.delete()
+
+# KEN KAN 
+# KEN KAN 
+# KAISAR USERBOT
+
 CMD_HELP.update({
     "animasi":
     "`.nah` ; `.huh` ; `.owner`\
