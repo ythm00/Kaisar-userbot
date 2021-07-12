@@ -1,6 +1,6 @@
 # Ported By Koala / @ManusiaRakitann From Dark Cobra # Thanks
 # Based On Plugins
-# Kaisar Userbot
+# Kaisar Userbot @kenkanasw
 
 from telethon.events import ChatAction
 from userbot import ALIVE_NAME, CMD_HELP, bot
@@ -143,8 +143,7 @@ async def gben(userbot):
     except BaseException:
         pass
     return await dark.edit(
-        f"**🏆 Perintah Kaisar:** `{ALIVE_NAME}`\n**✣ Pengguna:** [{user.first_name}](tg://user?id={user.id})\n**✣ Aksi:** `Global Banned`"
-    )
+        f"┏━━━━━━━༻❁༺━━━━━━━┓\n  ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ\n┣━━━━━━━༻❁༺━━━━━━━┛\n┣ 💌 **PERINTAH KAISAR :**\n┣ ↪ `{ ALIVE_NAME}`\n┣━━━━━━━━━━━━━━━━━━━━\n┣ 👥 **PENGGUNA :** [{user.first_name}](tg://user?id={user.id})\n┣ 🏃 **AKSI :** `Global Banned`\n┗━━━━━━━༻❁༺━━━━━━━┛")
 
 
 @register(outgoing=True, pattern="^.ungban(?: |$)(.*)")
@@ -207,8 +206,8 @@ async def gunben(userbot):
     except BaseException:
         pass
     return await dark.edit(
-        f"**🏆 Perintah Kaisar:** `{ALIVE_NAME}`\n**✣ Pengguna:** [{user.first_name}](tg://user?id={user.id})\n**✣ Aksi:** `Membatalkan Global Banned`"
-    )
+        f"┏━━━━━━━༻❁༺━━━━━━━┓\n  ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ\n┣━━━━━━━༻❁༺━━━━━━━┛\n┣ 💌 **PERINTAH KAISAR :**\n┣ ↪ `{ ALIVE_NAME}`\n┣━━━━━━━━━━━━━━━━━━━━\n┣ 👥 **PENGGUNA :** [{user.first_name}](tg://user?id={user.id})\n┣ 🏃 **AKSI :** `Membatalkan Global Banned`\n┗━━━━━━━༻❁༺━━━━━━━┛")
+
 
 
 CMD_HELP.update({
