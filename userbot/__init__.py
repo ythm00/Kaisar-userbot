@@ -387,7 +387,7 @@ with bot:
             api_hash=API_HASH).start(
             bot_token=BOT_TOKEN)
          
-        kaisarlogo = INLINE_PIC
+        
         dugmeler = CMD_HELP
         me = bot.get_me()
         uid = me.id
@@ -409,11 +409,30 @@ with bot:
                 result = builder.article(
                     "Harap Gunakan .help Untuk Perintah",
                     text="{}\n┣ 🧩 **MODUL TERSEDIA :** `{}`\n┣ 🧰 **DAFTAR MODUL :** \n┗━━━━━━༻❁༺━━━━━━┛\n".format(
-                        f"┏━━━━━━༻❁༺━━━━━━┓\n [ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ](kaisarlogo)\n┗━━━━━━༻❁༺━━━━━━┛"
+                        f"┏━━━━━━༻❁༺━━━━━━┓\n ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ\n┗━━━━━━༻❁༺━━━━━━┛"
                     ),
                     buttons=buttons,
-                    link_preview=True,
+                    link_preview=False,
                 )
+            if INLINE_PIC:
+        try:
+            logo = INLINE_PIC
+            await helpme.delete()
+            msg = await bot.send_file(helpme.chat_id, logo, caption=output)
+            await asyncio.sleep(800)
+            await msg.delete()
+        except BaseException:
+            await helpme.edit(
+                output + "\n\n ***Logo yang diberikan tidak valid."
+                "\nPastikan link diarahkan ke gambar logo**"
+            )
+            await asyncio.sleep(100)
+            await helpme.delete()
+    else:
+        await alive.edit(output)
+        await asyncio.sleep(100)
+        await alive.delete()
+
             elif query.startswith("tb_btn"):
                 result = builder.article(
                     "Bantuan Kaisar✗Userbot ",
