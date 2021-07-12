@@ -352,7 +352,7 @@ async def typewriter(typew):
      "░░░░░░░█▓█░░░░░░░░░░\n"
      "░░░░░░░░▓░░░░░░░░░░░\n")
      sleep(6)
-     await.typew()
+     await typew.delete()
   
 
 CMD_HELP.update({
