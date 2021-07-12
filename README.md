@@ -42,7 +42,7 @@
 <a href="https://github.com/kenkannih/Kaisar-userbot/blob/Kaisar-userbot/LICENSE"><img src="https://img.shields.io/github/license/kenkannih/Kaisar-userbot?color=gold&label=LICENSE&logo=github&logoColor=gold&style=plastic"width="150" height="30"/></a>
 
 
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=kenkannih&repo=Kaisar-userbot&theme=dark)
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=kenkansaja&repo=Kaisar-userbot&theme=dark)
 
 
 <p align="center">┏━━━━━━༻❁༺━━━━━━┓ </p>
