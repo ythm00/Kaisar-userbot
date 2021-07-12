@@ -409,7 +409,7 @@ with bot:
                 result = builder.photo(
                     fiile=kaisarlogo,
                     link_preview=False,
-                    text=f"┏━━━━━━༻❁༺━━━━━━┓\n ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ\n┗━━━━━━༻❁༺━━━━━━┛\n┣ 🧩 **MODUL TERSEDIA :** `{}`\n┣ 🧰 **DAFTAR MODUL :** \n┗━━━━━━༻❁༺━━━━━━┛".format(len(dugmeler),
+                    text=f"┏━━━━━━༻❁༺━━━━━━┓\n ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ\n┗━━━━━━༻❁༺━━━━━━┛\n┣ 🧩 **MODUL TERSEDIA :** `{len(modules)}`\n┣ 🧰 **DAFTAR MODUL :** \n┗━━━━━━༻❁༺━━━━━━┛".format(len(dugmeler),
                     ),
                     buttons=buttons,
                 )
