@@ -402,10 +402,10 @@ with bot:
         async def inline_handler(event):
             builder = event.builder
             result = None
+            file = kaisarlogo
             query = event.text
             if event.query.user_id == uid and query.startswith("@UserButt"):
                 buttons = paginate_help(0, dugmeler, "helpme")
-                file = kaisarlogo,
                 result = builder.article(
                     "Harap Gunakan .help Untuk Perintah",
                     text="{}┣ 🧩 **MODUL TERSEDIA :** `{}`\n┣ 🧰 **DAFTAR MODUL :** \n┗━━━━━━༻❁༺━━━━━━┛\n".format(
