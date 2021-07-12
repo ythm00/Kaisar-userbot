@@ -409,12 +409,9 @@ with bot:
                 result = builder.photo(
                     fiile=kaisarlogo,
                     link_preview=False,
-                    text=f"{}┣ 🧩 **MODUL TERSEDIA :** `{}`\n┣ 🧰 **DAFTAR MODUL :** \n┗━━━━━━༻❁༺━━━━━━┛\n".format(
-                        f"┏━━━━━━༻❁༺━━━━━━┓\n ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ\n┗━━━━━━༻❁༺━━━━━━┛\n",
-                        len(dugmeler),
+                    text=f"┏━━━━━━༻❁༺━━━━━━┓\n ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ\n┗━━━━━━༻❁༺━━━━━━┛\n┣ 🧩 **MODUL TERSEDIA :** `{len(plugins)}`\n┣ 🧰 **DAFTAR MODUL :** \n┗━━━━━━༻❁༺━━━━━━┛\n".format(len(dugmeler),
                     ),
                     buttons=buttons,
-                    link_preview=False,
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
