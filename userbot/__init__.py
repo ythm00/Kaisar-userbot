@@ -406,12 +406,13 @@ with bot:
             query = event.text
             if event.query.user_id == uid and query.startswith("@UserButt"):
                 buttons = paginate_help(0, dugmeler, "helpme")
-                result = builder.photo(
-                    fiile=kaisarlogo,
-                    link_preview=False,
-                    text=f"┏━━━━━━༻❁༺━━━━━━┓\n ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ\n┗━━━━━━༻❁༺━━━━━━┛\n┣ 🧩 **MODUL TERSEDIA :** `{len(modules)}`\n┣ 🧰 **DAFTAR MODUL :** \n┗━━━━━━༻❁༺━━━━━━┛".format(len(dugmeler),
+                result = builder.article(
+                    "Harap Gunakan .help Untuk Perintah",
+                    text=text="{}\n┣ 🧩 **MODUL TERSEDIA :** `{}`\n┣ 🧰 **DAFTAR MODUL :** \n┗━━━━━━༻❁༺━━━━━━┛\n".format(
+                        f"┏━━━━━━༻❁༺━━━━━━┓\n [ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ](kaisarlogo)\n┗━━━━━━༻❁༺━━━━━━┛"
                     ),
                     buttons=buttons,
+                    link_preview=True,
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
