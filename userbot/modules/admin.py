@@ -36,7 +36,7 @@ from userbot.events import register
 # =================== CONSTANT ===================
 PP_TOO_SMOL = "`Gambar Terlalu Kecil`"
 PP_ERROR = "`Gagal Memproses Gambar`"
-NO_ADMIN = "`Kaisar Bukan Admin:)`"
+NO_ADMIN = "`┏━━━━━━༻❁༺━━━━━━┓\n       Kaisar Bukan Admin:)\n┗━━━━━━༻❁༺━━━━━━┛`"
 NO_PERM = "`Kaisar Tidak Mempunyai Izin!`"
 NO_SQL = "`Berjalan Pada Mode Non-SQL`"
 
@@ -540,7 +540,7 @@ async def rm_deletedacc(show):
 
     # Well
     if not admin and not creator:
-        return await show.edit("`Kaisar Bukan Admin Disini!`")
+        return await show.edit("`┏━━━━━━༻❁༺━━━━━━┓\n  Kaisar Bukan Admin di sini :)\n┗━━━━━━༻❁༺━━━━━━┛`")
 
     await show.edit("`Menghapus Akun Terhapus...\nMohon Menunggu Kaisar Sedang Dalam Proses`")
     del_u = 0
