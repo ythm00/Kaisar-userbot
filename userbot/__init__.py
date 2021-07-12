@@ -408,8 +408,8 @@ with bot:
                 file = kaisarlogo,
                 result = builder.article(
                     "Harap Gunakan .help Untuk Perintah",
-                    text="{}\n\n**❃ Jumlah Modul Yang Tersedia:** `{}`\n               \n**❃ Daftar Modul Kaisar Userbot:** \n".format(
-                        f"**{BUTTON}KAISAR-USERBOT**",
+                    text="{}\n\n┣ 🧩 **MODUL TERSEDIA :** `{}`\n\n┣ 🧰 **DAFTAR MODUL :** \n┗━━━━━━༻❁༺━━━━━━┛\n".format(
+                        f"┏━━━━━━༻❁༺━━━━━━┓\n   ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ\n┗━━━━━━༻❁༺━━━━━━┛",
                         len(dugmeler),
                     ),
                     buttons=buttons,
