@@ -1,5 +1,5 @@
 # Kaisar USERBOT
-FROM jokokendil/ambohju:buster
+FROM docker pull jokokendil/ambohju:buster
 
 #
 # Kaisar
