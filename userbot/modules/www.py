@@ -80,8 +80,7 @@ async def pingme(pong):
                     f"`%sms` \n"
                     f"⚡ **ᴏɴʟɪɴᴇ:** "
                     f"`{uptime}` \n" % (duration))
-     sleep(3)
-     await pong.delete()
+  
 
 @register(outgoing=True, pattern="^.xping$")
 async def pingme(pong):
