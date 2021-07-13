@@ -475,6 +475,8 @@ with bot:
                 reply_pop_up_alert = f"Harap Deploy Kaisar Userbot Anda Sendiri, Jangan Menggunakan Milik Kaisar {ALIVE_NAME} ツ"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
+     with bot:
+         try:
               kaisarlogo = INLINE_PIC
               plugins = CMD_HELP
               vr = BOT_VER
