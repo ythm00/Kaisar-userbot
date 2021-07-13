@@ -475,6 +475,26 @@ with bot:
                 reply_pop_up_alert = f"Harap Deploy Kaisar Userbot Anda Sendiri, Jangan Menggunakan Milik Kaisar {ALIVE_NAME} ツ"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
+   kaisarlogo = INLINE_PIC
+   plugins = CMD_HELP
+   vr = BOT_VER
+@tgbot.on(events.InlineQuery)  # pylint:disable=E0602
+        async def inline_handler(event):
+            builder = event.builder
+            result = None
+            query = event.text
+            if event.query.user_id == uid and query.startswith(
+                    "@Kaisar-userbot"):
+                buttons = paginate_help(0, dugmeler, "khelpme")
+                result = builder.photo(
+                    file=kaisarlogo,
+                    link_preview=False,
+                    text=f"🔵ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ🔵\n\n*OWNER : {ALIVE_NAME}**\n\n🔵 **BOT VER :** `5.0`\n🔵 **MODUL :**`{len(plugins)}`\n\n🔵 **PEMILIK : [KEN KAN](t.me/kenkanasw) **".format(
+                        len(dugmeler),
+                    ),
+                    buttons=buttons,
+                )
+            
         @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
                 data=re.compile(b"ub_modul_(.*)")
