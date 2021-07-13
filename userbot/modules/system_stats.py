@@ -270,7 +270,7 @@ async def amireallyalive(alive):
         f"♚ **Versi Bot**\n➢ `{BOT_VER}` \n"
         f"♚ **Modul**\n➢ `{len(modules)}` \n"
         f"╔══════ ≪ °❈° ≫ ══════╗\n"
-        f"┣|•🗡**Repo Userbot :** [KAISAR-USERBOT](https://github.com/kenkannih/Kaisar-userbot)\n"
+        f"┣|•🗡**Repo Userbot :** [KAISAR-USERBOT](https://github.com/kenkansaja/Kaisar-userbot)\n"
         f"┣|•💬**Grup Userbot :** [GROUP](t.me/musikkugroup)\n"
         f"┣|•👤**Pemilik :** [KEN KAN](t.me/kenkanasw)\n"
         f"╚══════ ≪ °❈° ≫ ══════╝")
@@ -311,7 +311,7 @@ async def amireallyalive(alive):
         f"┣|•👾 **Bot Ver   :** `{BOT_VER}`\n"
         f"┣|•📂 **Modules :** `{len(modules)}`\n"
         f"┗━━━━━━━━━━━━━━━━━━━ \n\n"
-        f"[Repo](https://github.com/kenkannih/Kaisar-userbot) | [Grup Support](t.me/musikkugroup) | [Owner](t.me/kenkanasw)")
+        f"[Repo](https://github.com/kenkansaja/Kaisar-userbot) | [Grup Support](t.me/musikkugroup) | [Owner](t.me/kenkanasw)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
