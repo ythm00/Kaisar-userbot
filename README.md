@@ -37,7 +37,7 @@
 </p>
 <p align="center">
 <img src="https://2.bp.blogspot.com/-eBu3-f3vzW0/V3E8UnYXsfI/AAAAAAAADHI/lJrPAoLSE70aO0F3W9fruZ8O-qJY76MSwCLcB/s1600/gambar-gerak-gif-chip-and-dale-terbaru.gif" style="width:100%">
-<a href="https://hub.docker.com/jokokendil/ambohju/buster"> <img src="https://img.shields.io/docker/image-size/jokokendil/ambohju/buster?label=DOCKERFILE&style=plastic&logo=docker&logoColor=white"width="300" /></a>
+<a href="https://hub.docker.com/r/jokokendil/ambohju"> <img src="https://img.shields.io/docker/image-size/jokokendil/r/ambohju/buster?label=DOCKERFILE&style=plastic&logo=docker&logoColor=white"width="300" /></a>
 </p>
 <a href="https://github.com/kenkansaja/Kaisar-userbot/blob/Kaisar-userbot/LICENSE"><img src="https://img.shields.io/github/license/kenkansaja/Kaisar-userbot?color=gold&label=LICENSE&logo=github&logoColor=gold&style=plastic"width="150" height="30"/></a>
 
