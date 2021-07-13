@@ -57,7 +57,7 @@ async def pingme(pong):
                     f"\n  ➥ `%sms` \n"
                     f"**𖣘 KAISAR** "
                     f"\n  ➥ `{ALIVE_NAME}` \n" % (duration))
-    await sleep(5)
+    sleep(3)
     await pong.delete()
 
 @register(outgoing=True, pattern="^.lping$")
@@ -80,7 +80,7 @@ async def pingme(pong):
                     f"`%sms` \n"
                     f"⚡ **ᴏɴʟɪɴᴇ:** "
                     f"`{uptime}` \n" % (duration))
-     await sleep(5)
+     sleep(3)
      await pong.delete()
 
 @register(outgoing=True, pattern="^.xping$")
@@ -96,7 +96,7 @@ async def pingme(pong):
                     f" `%sms` \n"
                     f"➠ __ＵＰＴＩＭＥ :__ "
                     f" `{uptime}` \n" % (duration))
-     await sleep(5)
+     sleep(3)
      await pong.delete()
 
 @register(outgoing=True, pattern="^.ping$")
@@ -121,7 +121,7 @@ async def pingme(pong):
                     f"━━━━━━━━━━━━━━━━━━━\n"
                     f"** ❖  My кคเรคг :** `{ALIVE_NAME}`\n"
                     f"┗━━━━━━༻❁༺━━━━━━┛" % (duration))
-      await sleep(5)
+      sleep(3)
       await pong.delete()
 
 @register(outgoing=True, pattern="^.sinyal$")
@@ -145,7 +145,7 @@ async def pingme(pong):
                     f" `{uptime}`\n"
                     f"**• ᴏᴡɴᴇʀ :** `{ALIVE_NAME}`\n"
                     f"┗━━━━━━༻❁༺━━━━━━┛" % (duration))
-      await sleep(5)
+      sleep(3)
       await pong.delete()
 
 @register(outgoing=True, pattern="^.speed$")
@@ -172,7 +172,7 @@ async def speedtst(spd):
                      f"┣ 📡**Ping :** `{result['ping']}` \n"
                      f"┣ 🌍**ISP :** `{result['client']['isp']}` \n"
                      f"┗━━━━━━━༻❁༺━━━━━━━┛")
-      await sleep(5)
+      sleep(3)
       await spd.delete()
 
 def speed_convert(size):
@@ -202,7 +202,7 @@ async def pingme(pong):
     duration = (end - start).microseconds / 9000
     await pong.edit(f"┏━━━━━━༻❁༺━━━━━━┓\n ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ\n┗━━━━━━༻❁༺━━━━━━┛\n"
                                  f"✘ ＰＩＮＧ! : `%sms`" % (duration))
-    await sleep(5)
+    sleep(3)
     await pong.delete()
 
 @register(outgoing=True, pattern="^.kping$")
@@ -233,7 +233,7 @@ async def pingme(pong):
                     f"━━━━━━━━━━━━━━━━━━━\n"
                     f"**[♦] My KAISAR  :** `{ALIVE_NAME}`\n"
                     f"┗━━━━━━༻❁༺━━━━━━┛" % (duration))
-     await sleep(5)
+     sleep(3)
      await pong.delete()
 
 
