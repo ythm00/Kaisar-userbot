@@ -57,8 +57,7 @@ async def pingme(pong):
                     f"\n  ➥ `%sms` \n"
                     f"**𖣘 KAISAR** "
                     f"\n  ➥ `{ALIVE_NAME}` \n" % (duration))
-    sleep(3)
-    await pong.delete()
+    
 
 @register(outgoing=True, pattern="^.lping$")
 async def pingme(pong):
@@ -95,8 +94,7 @@ async def pingme(pong):
                     f" `%sms` \n"
                     f"➠ __ＵＰＴＩＭＥ :__ "
                     f" `{uptime}` \n" % (duration))
-     sleep(3)
-     await pong.delete()
+     
 
 @register(outgoing=True, pattern="^.ping$")
 async def pingme(pong):
@@ -120,8 +118,7 @@ async def pingme(pong):
                     f"━━━━━━━━━━━━━━━━━━━\n"
                     f"** ❖  My кคเรคг :** `{ALIVE_NAME}`\n"
                     f"┗━━━━━━༻❁༺━━━━━━┛" % (duration))
-      sleep(3)
-      await pong.delete()
+      
 
 @register(outgoing=True, pattern="^.sinyal$")
 async def pingme(pong):
@@ -144,8 +141,7 @@ async def pingme(pong):
                     f" `{uptime}`\n"
                     f"**• ᴏᴡɴᴇʀ :** `{ALIVE_NAME}`\n"
                     f"┗━━━━━━༻❁༺━━━━━━┛" % (duration))
-      sleep(3)
-      await pong.delete()
+      
 
 @register(outgoing=True, pattern="^.speed$")
 async def speedtst(spd):
@@ -171,8 +167,7 @@ async def speedtst(spd):
                      f"┣ 📡**Ping :** `{result['ping']}` \n"
                      f"┣ 🌍**ISP :** `{result['client']['isp']}` \n"
                      f"┗━━━━━━━༻❁༺━━━━━━━┛")
-      sleep(3)
-      await spd.delete()
+      
 
 def speed_convert(size):
     """
@@ -201,9 +196,7 @@ async def pingme(pong):
     duration = (end - start).microseconds / 9000
     await pong.edit(f"┏━━━━━━༻❁༺━━━━━━┓\n ＫＡＩＳＡＲ-ＵＳＥＲＢＯＴ\n┗━━━━━━༻❁༺━━━━━━┛\n"
                                  f"✘ ＰＩＮＧ! : `%sms`" % (duration))
-    sleep(3)
-    await pong.delete()
-
+    
 @register(outgoing=True, pattern="^.kping$")
 async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
@@ -232,8 +225,7 @@ async def pingme(pong):
                     f"━━━━━━━━━━━━━━━━━━━\n"
                     f"**[♦] My KAISAR  :** `{ALIVE_NAME}`\n"
                     f"┗━━━━━━༻❁༺━━━━━━┛" % (duration))
-     sleep(3)
-     await pong.delete()
+     
 
 
 CMD_HELP.update(
