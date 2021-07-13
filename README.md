@@ -2,24 +2,24 @@
   <img src="./resources/extras/kaisar.gif" alt="kaisar Logo"width="400" height="170">
 </p>
 <p align="center">
-  <a href="https://github.com/kenkannih/Kaisar-userbot/fork">
-    <img src="https://img.shields.io/github/forks/kenkannih/Kaisar-userbot?color=yellow&label=FORK&logo=github&style=plastic"width="100" height="35"> 
+  <a href="https://github.com/kenkansaja/Kaisar-userbot/fork">
+    <img src="https://img.shields.io/github/forks/kenkansaja/Kaisar-userbot?color=yellow&label=FORK&logo=github&style=plastic"width="100" height="35"> 
   </a>
-  <a href="https://github.com/kenkannih/Kaisar-userbot/stars">
-    <img src="https://img.shields.io/github/stars/kenkannih/Kaisar-userbot?color=green&label=STARS&logo=github&style=plastic"width="100" height="35">
-  </a>
-</p>
-<p align="center">
-<a href="https://github.com/kenkannih/Kaisar-userbot/repo-size">
-    <img src="https://img.shields.io/github/repo-size/kenkannih/Kaisar-userbot?color=red&label=REPO%20SIZE&logo=github&logoColor=red&style=plastic"width="200" height="35">
+  <a href="https://github.com/kenkansaja/Kaisar-userbot/stars">
+    <img src="https://img.shields.io/github/stars/kenkansaja/Kaisar-userbot?color=green&label=STARS&logo=github&style=plastic"width="100" height="35">
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/kenkannih/Kaisar-userbot/contributors">
-    <img src="https://img.shields.io/github/contributors/kenkannih/Kaisar-userbot?label=CONTRIBUTORS&style=badge&logo=github"width="200">
+<a href="https://github.com/kenkansaja/Kaisar-userbot/repo-size">
+    <img src="https://img.shields.io/github/repo-size/kenkansaja/Kaisar-userbot?color=red&label=REPO%20SIZE&logo=github&logoColor=red&style=plastic"width="200" height="35">
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/kenkansaja/Kaisar-userbot/contributors">
+    <img src="https://img.shields.io/github/contributors/kenkansaja/Kaisar-userbot?label=CONTRIBUTORS&style=badge&logo=github"width="200">
    </a>
-  <a href="https://github.com/kenkannih/Kaisar-userbot/issues-pr">
-    <img src="https://img.shields.io/github/issues-pr/kenkannih/Kaisar-userbot?label=ISSUES&style=plastic&logo=github"width="200">
+  <a href="https://github.com/kenkansaja/Kaisar-userbot/issues-pr">
+    <img src="https://img.shields.io/github/issues-pr/kenkansaja/Kaisar-userbot?label=ISSUES&style=plastic&logo=github"width="200">
   </a>  
   </p>  
 
@@ -39,7 +39,7 @@
 <img src="https://2.bp.blogspot.com/-eBu3-f3vzW0/V3E8UnYXsfI/AAAAAAAADHI/lJrPAoLSE70aO0F3W9fruZ8O-qJY76MSwCLcB/s1600/gambar-gerak-gif-chip-and-dale-terbaru.gif" style="width:100%">
 <a href="https://hub.docker.com/jokokendil/ambohju/buster"> <img src="https://img.shields.io/docker/image-size/jokokendil/ambohju/buster?label=DOCKERFILE&style=plastic&logo=docker&logoColor=white"width="300" /></a>
 </p>
-<a href="https://github.com/kenkannih/Kaisar-userbot/blob/Kaisar-userbot/LICENSE"><img src="https://img.shields.io/github/license/kenkannih/Kaisar-userbot?color=gold&label=LICENSE&logo=github&logoColor=gold&style=plastic"width="150" height="30"/></a>
+<a href="https://github.com/kenkansaja/Kaisar-userbot/blob/Kaisar-userbot/LICENSE"><img src="https://img.shields.io/github/license/kenkansaja/Kaisar-userbot?color=gold&label=LICENSE&logo=github&logoColor=gold&style=plastic"width="150" height="30"/></a>
 
 
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=kenkansaja&repo=Kaisar-userbot&theme=dark)
@@ -66,7 +66,7 @@ Repo Yang Dibuat <a href="https://t.me/kenkanasw"><img src="https://img.shields.
 
 ### STRING SESSON
 
-<p align="center"><a href="https://replit.com/@kenkannih/strings-session#main.py"><img src="https://img.shields.io/badge/REPLIT-STRINGS-yellow?style=plastic&logo=replit&logoColor=yellow"width="270" height="40" /></a></p>
+<p align="center"><a href="https://replit.com/@kenkansaja/strings-session#main.py"><img src="https://img.shields.io/badge/REPLIT-STRINGS-yellow?style=plastic&logo=replit&logoColor=yellow"width="270" height="40" /></a></p>
 
 ## Bagaimana Cara Deploy?
 
@@ -87,7 +87,7 @@ Atau Bisa Gabung Ke Grup Kaisar Userbot -> <a href="https://t.me/musikkugroup"><
 ## <p align="center">DEPLOY KAISAR-USERBOT</p>
 
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/kenkannih/Kaisar-userbot"> <img src="https://img.shields.io/badge/BUAT DI-HEROKU-blue?style=plastic&logo=heroku&logoColor=yellow"width="300" height="50" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/kenkansaja/Kaisar-userbot"> <img src="https://img.shields.io/badge/BUAT DI-HEROKU-blue?style=plastic&logo=heroku&logoColor=yellow"width="300" height="50" /></a></p>
 
 <br>
 </p>
@@ -97,7 +97,7 @@ Atau Bisa Gabung Ke Grup Kaisar Userbot -> <a href="https://t.me/musikkugroup"><
 TERIMAKASIH UNTUK
 
 
-*   YANG PERTAMA SAYA SENDIRI <a href="https://github.com/kenkannih/kenkannih"><img src="https://img.shields.io/badge/KEN-KAN-blue?style=plastic&logo=github&logoColor=yellow"/></a>
+*   YANG PERTAMA SAYA SENDIRI <a href="https://github.com/kenkansaja/kenkansaja"><img src="https://img.shields.io/badge/KEN-KAN-blue?style=plastic&logo=github&logoColor=yellow"/></a>
 *   [Vicky](https://github.com/vckyou/Geez-UserBot) - Geez-UserBot
 *   [Rama](https://github.com/ramadhani892/RAM-UBOT) - RAM-UBOT
 *   [Alvin](https://github.com/Zora24/Kaisar-userbot) - Lord-Userbot
