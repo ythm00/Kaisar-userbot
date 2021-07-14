@@ -74,7 +74,7 @@ Repo Yang Dibuat <a href="https://t.me/kenkanasw"><img src="https://img.shields.
 
   > Pertama Dapatkan API_ID & API_HASH Di my.telegram.org atau di t.me/Kenkanrobot (Wajib)
 
-  > Dapatkan String Session Di Replit pilih t bukan p (Wajib)
+  > Dapatkan String Session Di Replit pilih t bukan p atau bisa juga di bot @Stringdurhakabot pilih telethon (Wajib)
 
   > Next Tekan Tombol Deploy Dibawah
 
