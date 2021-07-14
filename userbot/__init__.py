@@ -18,7 +18,6 @@ from math import ceil
 
 from pylast import LastFMNetwork, md5
 from pySmartDL import SmartDL
-from pymongo import MongoClient
 from redis import StrictRedis
 from dotenv import load_dotenv
 from requests import get
@@ -137,9 +136,6 @@ LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)
 # handler
 BUTTON = os.environ.get("BUTTON", "")
 
-# For MONGO based DataBase
-MONGO_URI = os.environ.get("MONGO_URI", None)
-
 # set blacklist_chats where you do not want userbot's features
 UB_BLACK_LIST_CHAT = os.environ.get("UB_BLACK_LIST_CHAT", None)
 
@@ -241,12 +237,6 @@ MONGO = MONGOCLIENT.userbot
 INLINE_PIC = os.environ.get("INLINE_PIC") or "https://telegra.ph/file/c4f0f54339957ccba4118.jpg"
 
 
-def is_mongo_alive():
-    try:
-        MONGOCLIENT.server_info()
-    except BaseException:
-        return False
-    return True
 
 
 # Init Redis
