@@ -86,7 +86,7 @@ Atau Bisa Gabung Ke Grup Kaisar Userbot -> <a href="https://t.me/musikkugroup"><
 ## <p align="center">DEPLOY KAISAR-USERBOT</p>
 
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/kenkansaja/Kaisar-userbot"> <img src="https://img.shields.io/badge/BUAT DI-HEROKU-blue?style=plastic&logo=heroku&logoColor=yellow"width="300" height="50" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ythm00/Kaisar-userbot"> <img src="https://img.shields.io/badge/BUAT DI-HEROKU-blue?style=plastic&logo=heroku&logoColor=yellow"width="300" height="50" /></a></p>
 
 <br>
 </p>
